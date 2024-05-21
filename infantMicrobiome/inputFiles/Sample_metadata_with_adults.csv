@@ -1,0 +1,105 @@
+﻿Sample,Group,Time point
+V3_C005,VD,5 days
+V3_C009,VD,5 days
+V3_C010,VD,5 days
+V3_C016,CSD,5 days
+V3_C018,VD,5 days
+V3_C019,CSD,5 days
+V3_C100,VD,5 days
+V3_C101,CSD,5 days
+V3_C105,VD,5 days
+V3_C106,VD,5 days
+V3_C109,VD,5 days
+V3_C110,VD,5 days
+V3_C111,VD,5 days
+V3_C112,CSD,5 days
+V3_C113,CSD,5 days
+V3_C114,CSD,5 days
+V3_C117,VD,5 days
+V3_C118,CSD,5 days
+V3_C119,CSD,5 days
+V3_C120,CSD,5 days
+V4_C005,VD,1 month
+V4_C009,VD,1 month
+V4_C010,VD,1 month
+V4_C016,CSD,1 month
+V4_C018,VD,1 month
+V4_C019,CSD,1 month
+V4_C100,VD,1 month
+V4_C101,CSD,1 month
+V4_C105,VD,1 month
+V4_C106,VD,1 month
+V4_C109,VD,1 month
+V4_C110,VD,1 month
+V4_C111,VD,1 month
+V4_C112,CSD,1 month
+V4_C113,CSD,1 month
+V4_C114,CSD,1 month
+V4_C117,VD,1 month
+V4_C118,CSD,1 month
+V4_C119,CSD,1 month
+V4_C120,CSD,1 month
+V5_C005,VD,6 months
+V5_C009,VD,6 months
+V5_C010,VD,6 months
+V5_C016,CSD,6 months
+V5_C018,VD,6 months
+V5_C019,CSD,6 months
+V5_C100,VD,6 months
+V5_C101,CSD,6 months
+V5_C105,VD,6 months
+V5_C106,VD,6 months
+V5_C109,VD,6 months
+V5_C110,VD,6 months
+V5_C111,VD,6 months
+V5_C112,CSD,6 months
+V5_C113,CSD,6 months
+V5_C114,CSD,6 months
+V5_C117,VD,6 months
+V5_C118,CSD,6 months
+V5_C119,CSD,6 months
+V5_C120,CSD,6 months
+V6_C005,VD,1 year
+V6_C009,VD,1 year
+V6_C010,VD,1 year
+V6_C016,CSD,1 year
+V6_C018,VD,1 year
+V6_C019,CSD,1 year
+V6_C100,VD,1 year
+V6_C101,CSD,1 year
+V6_C105,VD,1 year
+V6_C106,VD,1 year
+V6_C109,VD,1 year
+V6_C110,VD,1 year
+V6_C111,VD,1 year
+V6_C112,CSD,1 year
+V6_C113,CSD,1 year
+V6_C114,CSD,1 year
+V6_C117,VD,1 year
+V6_C118,CSD,1 year
+V6_C119,CSD,1 year
+V6_C120,CSD,1 year
+M_C100,Mothers,Maternal_gut
+M_C105,Mothers,Maternal_gut
+M_C106,Mothers,Maternal_gut
+M_C109,Mothers,Maternal_gut
+M_C110,Mothers,Maternal_gut
+M_C111,Mothers,Maternal_gut
+M_C117,Mothers,Maternal_gut
+M_C118,Mothers,Maternal_gut
+M_C120,Mothers,Maternal_gut
+M_C115,Mothers,Maternal_gut
+M_C101,Mothers,Maternal_gut
+M_C114,Mothers,Maternal_gut
+M_C119,Mothers,Maternal_gut
+MV_C106,Mothers,Maternal_vagina
+MV_C109,Mothers,Maternal_vagina
+MV_C111,Mothers,Maternal_vagina
+MV_C117,Mothers,Maternal_vagina
+MV_C118,Mothers,Maternal_vagina
+MV_C120,Mothers,Maternal_vagina
+MV_C112,Mothers,Maternal_vagina
+MV_C115,Mothers,Maternal_vagina
+MV_C101,Mothers,Maternal_vagina
+MV_C113,Mothers,Maternal_vagina
+MV_C114,Mothers,Maternal_vagina

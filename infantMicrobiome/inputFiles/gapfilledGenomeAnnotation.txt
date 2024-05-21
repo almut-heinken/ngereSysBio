@@ -1,0 +1,35 @@
+MicrobeID	ID Reaction	gene locus
+Bifidobacterium longum infantis ATCC 15697	2FUCLAC_FUCASE	AfcA
+Bifidobacterium longum infantis ATCC 15697	LACNFUCPT_I_FUCASEe	AfcA
+Bifidobacterium longum infantis ATCC 15697	3FUCLAC_FUCASEe	AfcA
+Bifidobacterium longum infantis ATCC 15697	LACNFUCPT_III_FUCASEe	AfcB
+Bifidobacterium longum infantis ATCC 15697	3FUCLAC_FUCASEe	AfcB
+Bifidobacterium longum infantis ATCC 15697	LACNFUCPT_III_FUCASEe	Blon_0248
+Bifidobacterium longum infantis ATCC 15697	LACNFUCPT_III_FUCASEe	Blon_0426
+Bifidobacterium longum infantis ATCC 15697	LCTS_DEGc	Bga2A
+Bifidobacterium longum infantis ATCC 15697	LACNNTTR_DEGc	Bga2A
+Bifidobacterium longum infantis ATCC 15697	LACNTTR_DEGc	Bga42A
+Bifidobacterium longum infantis ATCC 15697	LCTNBHc	Bga42A
+Bifidobacterium longum infantis ATCC 15697	LACNTTR_DEGc	Blon_0459
+Bifidobacterium longum infantis ATCC 15697	LACNHX_DEGc	Blon_0459
+Bifidobacterium longum infantis ATCC 15697	LNTRI_II_DEGc	Blon_0459
+Bifidobacterium longum infantis ATCC 15697	LACNTTR_DEGc	Blon_0732
+Bifidobacterium longum infantis ATCC 15697	LACNHX_DEGc	Blon_0732
+Bifidobacterium longum infantis ATCC 15697	LNTRI_II_DEGc	Blon_0732
+Bifidobacterium longum infantis ATCC 15697	LACNTTR_DEGc	Blon_2355
+Bifidobacterium longum infantis ATCC 15697	LACNHX_DEGc	Blon_2355
+Bifidobacterium longum infantis ATCC 15697	LNTRI_II_DEGc	Blon_2355
+Bifidobacterium breve UCC2003	LACNTTR_DEGc	LntA
+Bifidobacterium breve UCC2003	LACNNTTR_DEGc	LntA
+Bifidobacterium breve UCC2003	LCTS_DEGc	LntA
+Bifidobacterium breve UCC2003	LACNNTTR_DEGc	LacZ2
+Bifidobacterium breve UCC2003	LCTS_DEGc	LacZ2
+Bifidobacterium breve UCC2003	LACNNTTR_DEGc	LacZ6
+Bifidobacterium breve UCC2003	LCTS_DEGc	LacZ6
+Bifidobacterium breve UCC2003	LNTRI_II_DEGc	NahA
+Bifidobacterium breve UCC2003	LCTNBHc	LnbP
+Bifidobacterium longum longum JCM 1217	LACNTTR_DEGe	LnbX
+Bifidobacterium longum longum JCM 1217	LACNHX_DEGe	LnbX
+Bifidobacterium longum longum JCM 1217	LACNFUCPT_I_FUCASEe	LnbX
+Bifidobacterium longum longum JCM 1217	LNTRI_II_DEGc	BLLJ_1391
+Bifidobacterium longum longum JCM 1217	LCTNBHc	LnpA

@@ -1,0 +1,75 @@
+﻿Sample,Group,Delivery mode,Time point,Antibiotics,Study ID,Maternal gut microbiome sample,Maternal vaginal microbiome sample,"Birth weight 
+(g)","Gestational age  
+(weeks)",Gestational age category,"Small for 
+gestational age (SGA)",Gender,Feeding (milk),Antibiotic treatment around delivery,"V1, V2, and V3","V4, V5, and V6"
+V3_C005,VD,Vaginal,5 days,None,C005,NA,NA,2730,37 +1 days,early term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V4_C005,VD,Vaginal,1 month,None,C005,NA,NA,2730,37 +1 days,early term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V5_C005,VD,Vaginal,6 months,None,C005,NA,NA,2730,37 +1 days,early term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V6_C005,VD,Vaginal,1 year,None,C005,NA,NA,2730,37 +1 days,early term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V3_C009,VD,Vaginal,5 days,None,C009,NA,NA,3310,39 + 6 days,full term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V4_C009,VD,Vaginal,1 month,None,C009,NA,NA,3310,39 + 6 days,full term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V5_C009,VD,Vaginal,6 months,None,C009,NA,NA,3310,39 + 6 days,full term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V6_C009,VD,Vaginal,1 year,None,C009,NA,NA,3310,39 + 6 days,full term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V3_C010,VD,Vaginal,5 days,Antibiotics,C010,NA,NA,4700,40 + 4 days,full term,No,Female,Breast,Cephalosporin,*PRJNA595749,PRJNA595749
+V4_C010,VD,Vaginal,1 month,Antibiotics,C010,NA,NA,4700,40 + 4 days,full term,No,Female,Breast,Cephalosporin,*PRJNA595749,PRJNA595749
+V5_C010,VD,Vaginal,6 months,Antibiotics,C010,NA,NA,4700,40 + 4 days,full term,No,Female,Breast,Cephalosporin,*PRJNA595749,PRJNA595749
+V6_C010,VD,Vaginal,1 year,Antibiotics,C010,NA,NA,4700,40 + 4 days,full term,No,Female,Breast,Cephalosporin,*PRJNA595749,PRJNA595749
+V3_C016,CSD,Elective Caesarean section,5 days,None,C016,NA,NA,3850,38 + 5 days,early term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V4_C016,CSD,Elective Caesarean section,1 month,None,C016,NA,NA,3850,38 + 5 days,early term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V6_C016,CSD,Elective Caesarean section,1 year,None,C016,NA,NA,3850,38 + 5 days,early term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V3_C018,VD,Vaginal,5 days,None,,,,3800,38 + 6 days,early term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V4_C018,VD,Vaginal,1 month,None,,,,3800,38 + 6 days,early term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V5_C018,VD,Vaginal,6 months,None,,,,3800,38 + 6 days,early term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V6_C018,VD,Vaginal,1 year,None,,,,3800,38 + 6 days,early term,No,Female,Breast,-,*PRJNA595749,PRJNA595749
+V3_C019,CSD,Elective Caesarean section,5 days,None,C019,NA,NA,3440,40 + 6 days,full term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V4_C019,CSD,Elective Caesarean section,1 month,None,C019,NA,NA,3440,40 + 6 days,full term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V5_C019,CSD,Elective Caesarean section,6 months,None,C019,NA,NA,3440,40 + 6 days,full term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V6_C019,CSD,Elective Caesarean section,1 year,None,C019,NA,NA,3440,40 + 6 days,full term,No,Male,Breast,-,*PRJNA595749,PRJNA595749
+V3_C100,VD,Vaginal,5 days,Antibiotics,C100,M_C100,NA,3730,40 + 6 days,full term,No ,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V4_C100,VD,Vaginal,1 month,Antibiotics,C100,M_C100,NA,3730,40 + 6 days,full term,No ,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V5_C100,VD,Vaginal,6 months,Antibiotics,C100,M_C100,NA,3730,40 + 6 days,full term,No ,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V6_C100,VD,Vaginal,1 year,Antibiotics,C100,M_C100,NA,3730,40 + 6 days,full term,No ,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V3_C101,CSD,Emergent Caesarean section,5 days,Antibiotics,C101,M_C101,MV_C101,1970,35 + 6 days,late preterm,Yes,Male,Formula,Clindamycin,PRJNA379120,PRJNA379120
+V4_C101,CSD,Emergent Caesarean section,1 month,Antibiotics,C101,M_C101,MV_C101,1970,35 + 6 days,late preterm,Yes,Male,Formula,Clindamycin,PRJNA379120,PRJNA379120
+V5_C101,CSD,Emergent Caesarean section,6 months,Antibiotics,C101,M_C101,MV_C101,1970,35 + 6 days,late preterm,Yes,Male,Formula,Clindamycin,PRJNA379120,PRJNA379120
+V6_C101,CSD,Emergent Caesarean section,1 year,Antibiotics,C101,M_C101,MV_C101,1970,35 + 6 days,late preterm,Yes,Male,Formula,Clindamycin,PRJNA379120,PRJNA379120
+V3_C105,VD,Vaginal,5 days,None,C105,M_C105,NA,3000,38,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V4_C105,VD,Vaginal,1 month,None,C105,M_C105,NA,3000,38,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V5_C105,VD,Vaginal,6 months,None,C105,M_C105,NA,3000,38,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V6_C105,VD,Vaginal,1 year,None,C105,M_C105,NA,3000,38,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V3_C106,VD,Vaginal,5 days,None,C106,M_C106,MV_C106,2700,37 + 5 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V4_C106,VD,Vaginal,1 month,None,C106,M_C106,MV_C106,2700,37 + 5 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V5_C106,VD,Vaginal,6 months,None,C106,M_C106,MV_C106,2700,37 + 5 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V6_C106,VD,Vaginal,1 year,None,C106,M_C106,MV_C106,2700,37 + 5 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V3_C110,VD,Vaginal,5 days,None,C110,M_C110,NA,3430,38 + 4 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V4_C110,VD,Vaginal,1 month,None,C110,M_C110,NA,3430,38 + 4 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V5_C110,VD,Vaginal,6 months,None,C110,M_C110,NA,3430,38 + 4 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V6_C110,VD,Vaginal,1 year,None,C110,M_C110,NA,3430,38 + 4 days,early term,No,Male,Breast,-,PRJNA379120,PRJNA595749
+V3_C111,VD,Vaginal,5 days,Antibiotics,C111,M_C111,MV_C111,3850,39 + 5 days,full term,No,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V4_C111,VD,Vaginal,1 month,Antibiotics,C111,M_C111,MV_C111,3850,39 + 5 days,full term,No,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V5_C111,VD,Vaginal,6 months,Antibiotics,C111,M_C111,MV_C111,3850,39 + 5 days,full term,No,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V6_C111,VD,Vaginal,1 year,Antibiotics,C111,M_C111,MV_C111,3850,39 + 5 days,full term,No,Female,Breast,Penicillin,PRJNA379120,PRJNA379120
+V3_C112,CSD,Elective Caesarean section,5 days,Antibiotics,C112,NA,MV_C112,3970,37 + 5 days,early term,No,Male,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V4_C112,CSD,Elective Caesarean section,1 month,Antibiotics,C112,NA,MV_C112,3970,37 + 5 days,early term,No,Male,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V5_C112,CSD,Elective Caesarean section,6 months,Antibiotics,C112,NA,MV_C112,3970,37 + 5 days,early term,No,Male,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V6_C112,CSD,Elective Caesarean section,1 year,Antibiotics,C112,NA,MV_C112,3970,37 + 5 days,early term,No,Male,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V3_C113,CSD,Elective Caesarean section,5 days,Antibiotics,C113,NA,MV_C113,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V4_C113,CSD,Elective Caesarean section,1 month,Antibiotics,C113,NA,MV_C113,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V5_C113,CSD,Elective Caesarean section,6 months,Antibiotics,C113,NA,MV_C113,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V6_C113,CSD,Elective Caesarean section,1 year,Antibiotics,C113,NA,MV_C113,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V3_C114,CSD,Elective Caesarean section,5 days,Antibiotics,C114,M_C114,MV_C114,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V4_C114,CSD,Elective Caesarean section,1 month,Antibiotics,C114,M_C114,MV_C114,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V5_C114,CSD,Elective Caesarean section,6 months,Antibiotics,C114,M_C114,MV_C114,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V6_C114,CSD,Elective Caesarean section,1 year,Antibiotics,C114,M_C114,MV_C114,2560,39,full term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA379120
+V3_C117,VD,Vaginal,5 days,None,C117,M_C117,MV_C117,3670,39 + 4 days,full term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V4_C117,VD,Vaginal,1 month,None,C117,M_C117,MV_C117,3670,39 + 4 days,full term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V5_C117,VD,Vaginal,6 months,None,C117,M_C117,MV_C117,3670,39 + 4 days,full term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V6_C117,VD,Vaginal,1 year,None,C117,M_C117,MV_C117,3670,39 + 4 days,full term,No,Male,Breast,-,PRJNA379120,PRJNA379120
+V3_C119,CSD,Elective Caesarean section,5 days,Antibiotics,C119,M_C119,NA,1900,38 + 4 days,early term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA595749
+V4_C119,CSD,Elective Caesarean section,1 month,Antibiotics,C119,M_C119,NA,1900,38 + 4 days,early term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA595749
+V5_C119,CSD,Elective Caesarean section,6 months,Antibiotics,C119,M_C119,NA,1900,38 + 4 days,early term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA595749
+V6_C119,CSD,Elective Caesarean section,1 year,Antibiotics,C119,M_C119,NA,1900,38 + 4 days,early term,Yes,Female,Breast,Cephalosporin,PRJNA379120,PRJNA595749
+V3_C120,CSD,Elective Caesarean section,5 days,Antibiotics,,,,3050,38 + 2 days,early term,No ,Male,Combined,Cephalosporin,PRJNA379120,PRJNA379120
+V4_C120,CSD,Elective Caesarean section,1 month,Antibiotics,,,,3050,38 + 2 days,early term,No ,Male,Combined,Cephalosporin,PRJNA379120,PRJNA379120
+V5_C120,CSD,Elective Caesarean section,6 months,Antibiotics,,,,3050,38 + 2 days,early term,No ,Male,Combined,Cephalosporin,PRJNA379120,PRJNA379120
+V6_C120,CSD,Elective Caesarean section,1 year,Antibiotics,,,,3050,38 + 2 days,early term,No ,Male,Combined,Cephalosporin,PRJNA379120,PRJNA379120

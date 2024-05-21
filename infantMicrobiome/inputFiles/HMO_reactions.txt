@@ -1,0 +1,78 @@
+2FUCLAC_FUCASEe	alpha-fucosidase, 2-fucosyllactose (extracellular)	2fuclac[e] + h2o[e] -> fuc_L[e] + lcts[e]
+3FUCLAC_FUCASEe	alpha-fucosidase, 3-fucosyllactose (extracellular)	3fuclac[e] + h2o[e] -> fuc_L[e] + lcts[e]
+3SLAC_SIASEe	3-Sialyllactose , Exo-alpha-sialidase	3slac[e] + h2o[e] -> acnam[e] + lcts[e]  
+6PGALSZ3	6-phospho-beta-galactosidase, N-acetyllactosamine	h2o[c] + naclacn6p[c] -> dgal6p[c] + acgam[c]
+6SLAC_SIASEe	6-Sialyllactose Exo-alpha-sialidase	6slac[e] + h2o[e] -> acnam[e] + lcts[e]  
+DFLNH_a_FUCASEe	alpha-fucosidase, difucosyllacto-N-hexaose a (extracellular)	dflnh_a[e] + 2 h2o[e] -> 2 fuc_L[e] + lacnhx[e]
+DFUCLAC_FUCASEe	alpha-fucosidase, difucosyllactose (extracellular)	dfuclac[e] + 2 h2o[e] -> 2 fuc_L[e] + lcts[e]
+DSLAC_SIASEe	Exo-alpha-sialidase , disialyllactose (extracellular)	dslac[e] + 2 h2o[e] -> 2 acnam[e] + lcts[e]  
+DSLACNTTR_SIASEe	Exo-alpha-sialidase , disialyllacto-N-tetraose (extracellular)	dslacnttr[e] + 2 h2o[e] -> 2 acnam[e] + lacnttr[e]  
+EX_2fuclac(e)	2-Fucosyllactose exchange	2fuclac[e] <=>
+EX_3fuclac(e)	3-Fucosyllactose exchange	3fuclac[e] <=>
+EX_3slac(e)	3-Sialyllactose exchange	3slac[e] <=>
+EX_6slac(e)	6-Sialyllactose exchange	6slac[e] <=>
+EX_dflnh_a(e)	Difucosyllacto-N-hexaose a exchange	dflnh_a[e] <=>
+EX_dfuclac(e)	Difucosyllactose exchange	dfuclac[e] <=>
+EX_dslac(e)	Disialyllactose exchange	dslac[e] <=>
+EX_dslacnttr(e)	disialyllacto-N-tetraose exchange	dslacnttr[e] <=>
+EX_fuclachx(e)	Monofucosyllacto-N-hexaose exchange	fuclachx[e] <=>
+EX_fucneulacnhx(e)	Monofucosyl-monosialyl-lacto-N-hexaose exchange	fucneulacnhx[e] <=>
+EX_glctnb(e)	Galacto-N-biose exchange	glctnb[e] <=>
+EX_lacdfucttr(e)	Lactodifucotetraose exchange	lacdfucttr[e] <=>
+EX_lacndfuchx(e)	Lacto-N-difucohexaose exchange	lacndfuchx[e] <=>
+EX_lacndfucpt_ii(e)	Lacto-N-difucopentaose_II exchange	lacndfucpt_ii[e] <=>
+EX_lacnfucpt_i(e)	Lacto-N-fucopentaose_I exchange	lacnfucpt_i[e] <=>
+EX_lacnfucpt_ii(e)	Lacto-N-fucopentaose_II exchange	lacnfucpt_ii[e] <=>
+EX_lacnfucpt_iii(e)	Lacto-N-fucopentaose_III exchange	lacnfucpt_iii[e] <=>
+EX_lacnfucpt_v(e)	Lacto-N-fucopentaose_V exchange	lacnfucpt_v[e] <=>
+EX_lacnfucpt(e)	Lacto-N-fucopentaose exchange	lacnfucpt[e] <=>
+EX_lacnhx(e)	Lacto-N-hexaose exchange	lacnhx[e] <=>
+EX_lacnnhx(e)	Lacto-N-neohexaose exchange	lacnnhx[e] <=>
+EX_lacnnttr(e)	Lacto-N-neotetraose exchange	lacnnttr[e] <=>
+EX_lacnttr(e)	Lacto-N-tetraose exchange	lacnttr[e] <=>
+EX_lctnb(e)	Lacto-N-biose exchange	lctnb[e] <=>
+EX_lntri_i(e)	Lacto-N-triose I exchange	lntri_i[e] <=>
+EX_lntri_ii(e)	Lacto-N-triose II exchange	lntri_ii[e] <=>
+EX_naclacn(e)	N-acetyllactosamine exchange	naclacn[e] <=>
+EX_neulacnttr_b(e)	Sialyllacto-N-tetraose b exchange	neulacnttr_b[e] <=>
+EX_neulacnttr_c(e)	Sialyllacto-N-tetraose c exchange	neulacnttr_c[e] <=>
+EX_neulacnttr(e)	Sialyllacto-N-tetraose exchange	neulacnttr[e] <=>
+FUCLACHX_FUCASEe	alpha-fucosidase, monofucosyllacto-N-hexaose (extracellular)	fuclachx[e] + h2o[e] + h[e] -> fuc_L[e] + lacnhx[e]
+FUCNEULACNHX_DEGe	monofucosyl-monosialyl-lacto-N-hexaose degradation by alpha-fucosidase, sialidase, N-acetylglutaminidase and beta-galactosidase	2 fucneulacnhx[e] + 8 h2o[e] -> 2 fuc_L[e] + 2 acnam[e] + 2 acgam[e] + 2 gal[e] + lacnttr[e] + lacnnttr[e]
+LACDFUCTTR_FUCASEe	alpha-fucosidase, Lactodifucotetraose (extracellular)	lacdfucttr[e] + h2o[e] -> fuc_L[e] + 2fuclac[e]
+LACNDFUCHX_FUCASEe	alpha-fucosidase, Lacto-N-difucohexaose (extracellular)	lacndfuchx[e] + h2o[e] -> fuc_L[e] + lacnfucpt[e]
+LACNDFUCPT_II_FUCASEe	1,3-1,4-alpha-fucosidase, Lacto-N-difucopentaose_II (extracellular)	lacndfucpt_ii[e] + 2 h2o[e] -> 2 fuc_L[e] + lacnttr[e]
+LACNFUCPT_FUCASEe	alpha-fucosidase, Lacto-N-fucopentaose (extracellular)	lacnfucpt[e] + h2o[e] -> fuc_L[e] + lacnttr[e]
+LACNFUCPT_I_FUCASEe	1-2 alpha-fucosidase, Lacto-N-fucopentaose_I (extracellular)	lacnfucpt_i[e] + h2o[e] -> fuc_L[e] + lacnttr[e]
+LACNFUCPT_II_FUCASEe	1,3-–1,4-alpha-fucosidase, Lacto-N-fucopentaose_II (extracellular)	lacnfucpt_ii[e] + h2o[e] -> fuc_L[e] + lacnttr[e]
+LACNFUCPT_III_FUCASEe	1,3-1,4-alpha-fucosidase, Lacto-N-fucopentaose_III (extracellular)	lacnfucpt_iii[e] + h2o[e] -> fuc_L[e] + lacnttr[e] 
+LACNFUCPT_V_FUCASEe	1-2 alpha-fucosidase, Lacto-N-fucopentaose_V (extracellular)	lacnfucpt_v[e] + h2o[e] -> fuc_L[e] + lacnttr[e]
+LACNHX_DEGc	beta-N-Acetylglucosaminidase, Lacto-N-hexaose	lacnhx[c] + 2 h2o[c] -> lcts[c] + lctnb[c] + naclacn[c]
+LACNHX_DEGe	Lacto-N-hexaose degradation by Lacto-N-biosidase, beta-galactosidase and beta-N-Acetylglucosaminidase	lacnhx[e] + 3 h2o[e] -> lcts[e] +  acgam[e] + gal[e] + lctnb[e]
+LACNHXabc	Lacto-N-hexaose transport via ABC system	atp[c] + lacnhx[e] + h2o[c] -> lacnhx[c] + adp[c] + pi[c] + h[c]
+LACNNHX_DEGe	Lacto-N-neohexaose degradation by Lacto-N-biosidase , beta-galactosidase and beta-N-Acetylglucosaminidase	lacnnhx[e] + 4 h2o[e] -> lcts[e] +  2 acgam[e] + 2 gal[e]
+LACNNTTR_DEGc	lacto-N-neotetraose, degradation by beta-N-Acetylglucosaminidase ,intracellular   	lacnnttr[c] + h2o[c] -> lntri_ii[c] + gal[c] 
+LACNNTTR_DEGe	lacto-N-neotetraose, degradation by beta-galactosidase , extracellular	lacnnttr[e] + h2o[e] -> lntri_ii[e] + gal[e] 
+LACNNTTRabc	Lacto-N-neotetraose transport via ABC system	atp[c] + lacnnttr[e] + h2o[c] -> lacnnttr[c] + adp[c] + pi[c] + h[c]
+LACNTTR_DEGc	Transporter SBP, Lacto-N-tetraose degradation by beta-galactosidase and N-acetylglucosaminidase, intracellular	lacnttr[c] + 2 h2o[c] -> gal[c] + acgam[c] + lcts[c]
+LACNTTR_DEGe	Lacto-N-tetraose degradation by beta-galactosidase and N-acetylglucosaminidase, extracellular	lacnttr[e] + 2 h2o[e] -> gal[e] + acgam[e] + lcts[e]
+LACNTTRabc	Lacto-N-tetraose transport via ABC system	atp[c] + lacnttr[e] + h2o[c] -> lacnttr[c] + adp[c] + pi[c] + h[c]
+LACZe	b-galactosidase, extracellular	h2o[e] + lcts[e] -> gal[e] + glc_D[e]
+LCTNB_DEGc	Lacto-N-biose intracellular transport , LCTNB phosphorylase 	h2o[c] + lctnbp[c] -> dgal6p[c] + acgam[c]
+GLCTNBabc	Galacto-N-biose transport via ABC system	atp[c] + glctnb[e] + h2o[c] -> glctnb[c] + adp[c] + pi[c] + h[c]
+LCTNBabc	Lacto-N-biose transport via ABC system	atp[c] + lctnb[e] + h2o[c] -> lctnb[c] + adp[c] + pi[c] + h[c]
+NACLACNabc	N-acetyllactosamine transport via ABC system	atp[c] + naclacn[e] + h2o[c] -> naclacn[c] + adp[c] + pi[c] + h[c]
+NACLACNK	N-acetyllactosamine kinase	naclacn[c] + atp[c] -> naclacn6p[c] + adp[c] + h[c] 
+GLCNBHc	Galacto-N-biose phosphate hydrolase, cytoplasmic	h2o[c] + glctnbp[c] -> dgal6p[c] + acgal[c]
+LCTNBPHc	Lacto-N-biose phosphate hydrolase, cytoplasmic	h2o[c] + lctnbp[c] -> dgal6p[c] + acgam[c]
+GLCTNBpts	Galacto-N-biose transport via PTS system	pep[c] + glctnb[e] -> pyr[c] + glctnbp[c]
+LCTNBpts	Lacto-N-biose transport via PTS system	pep[c] + lctnb[e] -> pyr[c] + lctnbp[c]
+GLCNBPTc	Galacto-N-biose phosphorylase	glctnb[c] + pi[c] -> gal1p[c] + acgal[c]
+LNBP	Lacto-N-biose phosphorylase	lctnb[c] + pi[c] -> gal1p[c] + acgam[c]
+LNTRI_I_DEGe	beta-N-Acetylglucosaminidase, Lacto-N-triose I	lntri_i[e] + h2o[e] -> lcts[e] +  acgam[e]
+LNTRI_II_DEGc	beta-N-Acetylglucosaminidase, Lacto-N-triose II	lntri_ii[c] + h2o[c] -> lcts[c] +  acgam[c]
+LNTRI_II_DEGe	beta-N-Acetylglucosaminidase, Lacto-N-triose II	lntri_ii[e] + h2o[e] -> lcts[e] +  acgam[e]
+NACLACNpts	N-acetyllactosamine transport via PEP:Pyr PTS	naclacn[e] + pep[c] -> naclacn6p[c] + pyr[c]
+NEULACNTTR_B_SIASEe	sialidase, Sialyllacto-N-tetraose b	neulacnttr_b[e] + h2o[e] -> lacnttr[e] + acnam[e]
+NEULACNTTR_C_SIASEe	sialidase, Sialyllacto-N-tetraose c	neulacnttr_c[e] + h2o[e] -> lacnttr[e] + acnam[e]
+NEULACNTTR_SIASEe	sialidase, Sialyllacto-N-tetraose	neulacnttr[e] + h2o[e] -> lacnttr[e] + acnam[e]

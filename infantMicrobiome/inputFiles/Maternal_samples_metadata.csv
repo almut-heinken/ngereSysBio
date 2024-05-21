@@ -1,0 +1,89 @@
+﻿Sample_ID,Group,Delivery mode,Time point,Study ID
+M_C100,VD,Vaginal,5 days,C100
+M_C100,VD,Vaginal,1 month,C100
+M_C100,VD,Vaginal,6 months,C100
+M_C100,VD,Vaginal,1 year,C100
+M_C101,CSD,Emergent Caesarean section,5 days,C101
+M_C101,CSD,Emergent Caesarean section,1 month,C101
+M_C101,CSD,Emergent Caesarean section,6 months,C101
+M_C101,CSD,Emergent Caesarean section,1 year,C101
+M_C105,VD,Vaginal,5 days,C105
+M_C105,VD,Vaginal,1 month,C105
+M_C105,VD,Vaginal,6 months,C105
+M_C105,VD,Vaginal,1 year,C105
+M_C106,VD,Vaginal,5 days,C106
+M_C106,VD,Vaginal,1 month,C106
+M_C106,VD,Vaginal,6 months,C106
+M_C106,VD,Vaginal,1 year,C106
+M_C109,VD,Vaginal,5 days,C109
+M_C109,VD,Vaginal,1 month,C109
+M_C109,VD,Vaginal,6 months,C109
+M_C109,VD,Vaginal,1 year,C109
+M_C110,VD,Vaginal,5 days,C110
+M_C110,VD,Vaginal,1 month,C110
+M_C110,VD,Vaginal,6 months,C110
+M_C110,VD,Vaginal,1 year,C110
+M_C111,VD,Vaginal,5 days,C111
+M_C111,VD,Vaginal,1 month,C111
+M_C111,VD,Vaginal,6 months,C111
+M_C111,VD,Vaginal,1 year,C111
+M_C114,CSD,Elective Caesarean section,5 days,C114
+M_C114,CSD,Elective Caesarean section,1 month,C114
+M_C114,CSD,Elective Caesarean section,6 months,C114
+M_C114,CSD,Elective Caesarean section,1 year,C114
+M_C117,VD,Vaginal,5 days,C117
+M_C117,VD,Vaginal,1 month,C117
+M_C117,VD,Vaginal,6 months,C117
+M_C117,VD,Vaginal,1 year,C117
+M_C118,CSD,Elective Caesarean section,5 days,C118
+M_C118,CSD,Elective Caesarean section,1 month,C118
+M_C118,CSD,Elective Caesarean section,6 months,C118
+M_C118,CSD,Elective Caesarean section,1 year,C118
+M_C119,CSD,Elective Caesarean section,5 days,C119
+M_C119,CSD,Elective Caesarean section,1 month,C119
+M_C119,CSD,Elective Caesarean section,6 months,C119
+M_C119,CSD,Elective Caesarean section,1 year,C119
+M_C120,CSD,Elective Caesarean section,5 days,C120
+M_C120,CSD,Elective Caesarean section,1 month,C120
+M_C120,CSD,Elective Caesarean section,6 months,C120
+M_C120,CSD,Elective Caesarean section,1 year,C120
+MV_C101,CSD,Emergent Caesarean section,5 days,C101
+MV_C101,CSD,Emergent Caesarean section,1 month,C101
+MV_C101,CSD,Emergent Caesarean section,6 months,C101
+MV_C101,CSD,Emergent Caesarean section,1 year,C101
+MV_C106,VD,Vaginal,5 days,C106
+MV_C106,VD,Vaginal,1 month,C106
+MV_C106,VD,Vaginal,6 months,C106
+MV_C106,VD,Vaginal,1 year,C106
+MV_C109,VD,Vaginal,5 days,C109
+MV_C109,VD,Vaginal,1 month,C109
+MV_C109,VD,Vaginal,6 months,C109
+MV_C109,VD,Vaginal,1 year,C109
+MV_C111,VD,Vaginal,5 days,C111
+MV_C111,VD,Vaginal,1 month,C111
+MV_C111,VD,Vaginal,6 months,C111
+MV_C111,VD,Vaginal,1 year,C111
+MV_C112,CSD,Elective Caesarean section,5 days,C112
+MV_C112,CSD,Elective Caesarean section,1 month,C112
+MV_C112,CSD,Elective Caesarean section,6 months,C112
+MV_C112,CSD,Elective Caesarean section,1 year,C112
+MV_C113,CSD,Elective Caesarean section,5 days,C113
+MV_C113,CSD,Elective Caesarean section,1 month,C113
+MV_C113,CSD,Elective Caesarean section,6 months,C113
+MV_C113,CSD,Elective Caesarean section,1 year,C113
+MV_C114,CSD,Elective Caesarean section,5 days,C114
+MV_C114,CSD,Elective Caesarean section,1 month,C114
+MV_C114,CSD,Elective Caesarean section,6 months,C114
+MV_C114,CSD,Elective Caesarean section,1 year,C114
+MV_C117,VD,Vaginal,5 days,C117
+MV_C117,VD,Vaginal,1 month,C117
+MV_C117,VD,Vaginal,6 months,C117
+MV_C117,VD,Vaginal,1 year,C117
+MV_C118,CSD,Elective Caesarean section,5 days,C118
+MV_C118,CSD,Elective Caesarean section,1 month,C118
+MV_C118,CSD,Elective Caesarean section,6 months,C118
+MV_C118,CSD,Elective Caesarean section,1 year,C118
+MV_C120,CSD,Elective Caesarean section,5 days,C120
+MV_C120,CSD,Elective Caesarean section,1 month,C120
+MV_C120,CSD,Elective Caesarean section,6 months,C120
+MV_C120,CSD,Elective Caesarean section,1 year,C120
