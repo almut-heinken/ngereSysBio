@@ -1,4 +1,5 @@
 
+
 % interrogate the RNA-seq constrained models:
 % first get get the model statistics and distribution of reactions,
 % metabolites, and genes
@@ -25,7 +26,7 @@ retina_medium = {'EX_2pg_e';'EX_34hpp_e';'EX_35cgmp_e';'EX_3aib_e';'EX_3pg_e';'E
 
 mkdir([pwd filesep 'Metabolic_Flux_Results'])
 
-modelFolder = [pwd filesep datasets{d,1}];
+modelFolder = [pwd filesep 'Models'];
 dInfo = dir(modelFolder);
 modelList={dInfo.name};
 modelList=modelList';

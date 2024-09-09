@@ -11,6 +11,7 @@ Software requirements:
 - rFASTCORMICS (https://github.com/sysbiolux/rFASTCORMICS)
 - IBM CPLEX solver
 - Parallel Computing Toolbox, Bioinformatics Toolbox, Statistics and Machine Learning Toolbox in MATLAB
+- donut function (https://uk.mathworks.com/matlabcentral/fileexchange/56833-donut)
 
 To reproduce Figure 6a, afterwards run the R script "plotCorrelations". 
 R version 4.3.0 with RStudio had been used in the paper.

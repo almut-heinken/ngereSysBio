@@ -101,7 +101,6 @@ for i = 1:length(samples) %for each sample
     modelS = updateGenes(modelS);
     
     % scale fluxes with eFlux
-    % now scale reactions with EFlux
     expressionData = struct;
     expressionData.gene = normData(2:end,1);
     for j=1:length(expressionData.gene)
