@@ -2,6 +2,10 @@
 % Create personalized retina models using the rFASTCORMICS and E-Flux
 % algorithms.
 
+%% get reconstruction
+websave('41598_2020_63235_MOESM2_ESM.zip','https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-63235-w/MediaObjects/41598_2020_63235_MOESM2_ESM.zip')
+unzip('41598_2020_63235_MOESM2_ESM.zip')
+
 %% load reconstruction
 model=readCbModel('iMM1865.xml');
 model=creategrRulesField(model);
@@ -101,7 +105,6 @@ for i = 1:length(samples) %for each sample
     modelS = updateGenes(modelS);
     
     % scale fluxes with eFlux
-    % now scale reactions with EFlux
     expressionData = struct;
     expressionData.gene = normData(2:end,1);
     for j=1:length(expressionData.gene)

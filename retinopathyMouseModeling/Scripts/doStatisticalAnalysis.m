@@ -69,9 +69,9 @@ for i=2:size(Statistics,1)
     Statistics{i,13} = subsystems{findRxn,2};
     Statistics{i,14} = subsystems{findRxn,3};
 end
-Statistics(i,12) = strrep(Statistics(i,12),'_min','');
-Statistics(i,12) = strrep(Statistics(i,12),'_max','');
-writetable(cell2table(Statistics),[pwd filesep 'Metabolic_Flux_Statistics' filesep 'BALBcByJ_HO_vs_NO_sigRxns.csv'],'WriteVariableNames',false)
+Statistics(:,12) = strrep(Statistics(:,12),'_min','');
+Statistics(:,12) = strrep(Statistics(:,12),'_max','');
+writetable(cell2table(Statistics),[pwd filesep 'Metabolic_Flux_Statistics' filesep 'BALBcByJ_HO_vs_NO.csv'],'WriteVariableNames',false)
 
 Statistics(1,:)=[];
 % remove results that are not initially significant
@@ -102,9 +102,9 @@ for i=2:size(Statistics,1)
     Statistics{i,13} = subsystems{findRxn,2};
     Statistics{i,14} = subsystems{findRxn,3};
 end
-Statistics(i,12) = strrep(Statistics(i,12),'_min','');
-Statistics(i,12) = strrep(Statistics(i,12),'_max','');
-writetable(cell2table(Statistics),[pwd filesep 'Metabolic_Flux_Statistics' filesep 'C57BL6J_HO_vs_NO_sigRxns.csv'],'WriteVariableNames',false)
+Statistics(:,12) = strrep(Statistics(:,12),'_min','');
+Statistics(:,12) = strrep(Statistics(:,12),'_max','');
+writetable(cell2table(Statistics),[pwd filesep 'Metabolic_Flux_Statistics' filesep 'C57BL6J_HO_vs_NO.csv'],'WriteVariableNames',false)
 
 Statistics(1,:)=[];
 % remove results that are not initially significant
@@ -135,8 +135,8 @@ for i=2:size(Statistics,1)
     Statistics{i,13} = subsystems{findRxn,2};
     Statistics{i,14} = subsystems{findRxn,3};
 end
-Statistics(i,12) = strrep(Statistics(i,12),'_min','');
-Statistics(i,12) = strrep(Statistics(i,12),'_max','');
+Statistics(:,12) = strrep(Statistics(:,12),'_min','');
+Statistics(:,12) = strrep(Statistics(:,12),'_max','');
 writetable(cell2table(Statistics),[pwd filesep 'Metabolic_Flux_Statistics' filesep 'BALBcByJ_NO_vs_C57BL6J_NO.csv'],'WriteVariableNames',false)
 
 Statistics(1,:)=[];
@@ -168,8 +168,8 @@ for i=2:size(Statistics,1)
     Statistics{i,13} = subsystems{findRxn,2};
     Statistics{i,14} = subsystems{findRxn,3};
 end
-Statistics(i,12) = strrep(Statistics(i,12),'_min','');
-Statistics(i,12) = strrep(Statistics(i,12),'_max','');
+Statistics(:,12) = strrep(Statistics(:,12),'_min','');
+Statistics(:,12) = strrep(Statistics(:,12),'_max','');
 writetable(cell2table(Statistics),[pwd filesep 'Metabolic_Flux_Statistics' filesep 'BALBcByJ_HO_vs_C57BL6J_HO.csv'],'WriteVariableNames',false)
 
 Statistics(1,:)=[];
