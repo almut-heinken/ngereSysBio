@@ -5,8 +5,6 @@ cd('inputFiles')
 database=loadVMHDatabase;
 cd(rootDir)
 
-mkdir([rootDir filesep 'Exported_results'])
-
 %% define datasets
 datasets = {
     ['MicrobiomeModels' filesep 'ReactionAbundance.csv'],'ReactionAbundance.csv','Reaction_abundance_'

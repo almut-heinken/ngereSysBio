@@ -1,6 +1,8 @@
 
 % plot HMOs utilized by each AGORA2 microbe
 
+mkdir([rootDir filesep 'Exported_results'])
+
 hmos = {
     '2-Fucosyllactose', {'EX_2fuclac(e)'}
     '3-Fucosyllactose', {'EX_3fuclac(e)'}
@@ -75,7 +77,7 @@ for i=2:size(hmosUsed,1)
     end
 end
 hmosUsed(noUse,:)=[];
-cell2csv([rootDir filesep 'R_plots' filesep 'HMOsUsed.csv'],hmosUsed)
+cell2csv([rootDir filesep 'Exported_results' filesep 'HMOsUsed.csv'],hmosUsed)
 
 % export strain taxonomy
 hmosAnnotation = infoFile;
@@ -84,4 +86,4 @@ hmosAnnotation(:,5) = strrep(hmosAnnotation(:,5),'[','');
 hmosAnnotation(:,5) = strrep(hmosAnnotation(:,5),']','');
 hmosAnnotation(I(2:end),:)=[];
 hmosAnnotation(:,11:end)=[];
-cell2csv([rootDir filesep 'R_plots' filesep 'HMOsAnnotation.csv'],hmosAnnotation)
+cell2csv([rootDir filesep 'Exported_results' filesep 'HMOsAnnotation.csv'],hmosAnnotation)

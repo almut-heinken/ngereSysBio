@@ -1,10 +1,11 @@
 
+## Plot the reaction presence that differed significantly between time points
+
 library(RColorBrewer)
 library(ComplexHeatmap)
 
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
-setwd("..")
 setwd("..")
 
 ########## infants only ########
@@ -16,7 +17,7 @@ data=read.csv("Exported_results/ByTimePoint_ReactionPresence.csv",header=T,row.n
 #### read reaction subsystems
 annotations=read.csv("Exported_results/ByTimePoint_ReactionPresenceSubsystems.csv",header=T,row.names=1, check.names = FALSE, stringsAsFactors=T)[c("Subsystem")]
   
-png("R_plots/ReactionPresence_ByTimePoint.png", width = 16, height = 8, units = 'in', res = 300)
+png("R_plots/Figure_2b.png", width = 16, height = 8, units = 'in', res = 300)
   
 # first time point
 metadataReduced <- metadata

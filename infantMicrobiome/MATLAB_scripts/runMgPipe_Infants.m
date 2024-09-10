@@ -1,4 +1,5 @@
-               
+
+
 % Run microbiome modeling pipeline consisting of creating an input file
 % with relative strain abundances, creation of microbiome models,
 % interrogation of microbiome models through simulations, and plotting of
@@ -34,13 +35,15 @@ infoFilePath = [rootDir filesep 'inputFiles' filesep 'Sample_metadata.csv'];
 % path to the simulated diet
 dietFilePath = [rootDir filesep 'inputFiles' filesep 'inputDiets_COSMIC.txt'];
 
+% lower the required minimum biomass production
 lowerBMBound = 0.2;
+
 [init, netSecretionFluxes, netUptakeFluxes, Y, modelStats, summary] =  initMgPipe(panPath, abunFilePath, true, 'resPath', resPath, 'infoFilePath', infoFilePath, 'dietFilePath', dietFilePath, 'numWorkers', numWorkers, 'lowerBMBound', lowerBMBound);
 writetable(cell2table(netSecretionFluxes),[resPath filesep 'Infant_diet.csv'],'writeVariableNames',false)
 
 %% determine taxon-metabolite correlations
 mkdir([rootDir filesep 'Modeling_COSMIC' filesep 'Correlations'])
-taxInfo = [rootDir filesep 'inputFiles' filesep 'expanded_AGORA2_infoFile.xlsx'];
+taxInfo = [rootDir filesep 'inputFiles' filesep 'AGORA2_infoFile.xlsx'];
 fluxPath = [rootDir filesep 'Modeling_COSMIC' filesep 'MicrobiomeModels' filesep 'Infant_diet.csv'];
 corrMethod = 'Spearman';
 % first with net secretion

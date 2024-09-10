@@ -1,7 +1,12 @@
 
-% normalize infant gut microbiome data
+% Normalize infant gut microbiome data retrieved form Busi et al, ISME J
+% Comm 2021
 
-[normalizedCoverage,normalizedCoveragePath] = normalizeCoverage('inputFiles/mappedInfantGutMicrobiome.csv',0.001);
+% Read in the mapping from the abundance data to AGORA2 taxa (created
+% semi-automatically beforehand)
+taxonMapping = readInputTableForPipeline([rootDir filesep 'inputFiles' filesep 'Kraken_taxa_mapped_to_AGORA2.csv']);
+
+[normalizedCoverage,normalizedCoveragePath] = normalizeCoverage([rootDir filesep 'inputFiles' filesep 'mappedInfantGutMicrobiome.csv'],0.001);
 % exclude unmapped taxa from the normalized coverage
 [C,I] = setdiff(normalizedCoverage(:,1),taxonMapping(:,1),'stable');
 normalizedCoverage(I(2:end),:) = [];

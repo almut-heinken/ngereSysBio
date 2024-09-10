@@ -5,13 +5,10 @@ library(ComplexHeatmap)
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
 setwd("..")
-setwd("..")
-
-setwd("R_plots")
 
 ### HMO utilization by strain
-data = read.csv("HMOsUsed.csv",header=T,row.names=1, check.names = FALSE)
-taxonomy=read.csv("HMOsAnnotation.csv",header=T,row.names=1,check.names = FALSE,stringsAsFactors=T)[c("Phylum","Species")]
+data = read.csv("Exported_results/HMOsUsed.csv",header=T,row.names=1, check.names = FALSE)
+taxonomy=read.csv("Exported_results/HMOsAnnotation.csv",header=T,row.names=1,check.names = FALSE,stringsAsFactors=T)[c("Phylum","Species")]
 
 getPalette = colorRampPalette(brewer.pal(8, "Accent"))
 palette = getPalette(length(levels(taxonomy$Phylum)))
@@ -35,7 +32,7 @@ column_ha = HeatmapAnnotation(df = NULL, Phylum=as.character(taxonomy$Phylum),
                                                                           labels_gp = gpar(fontsize = 14)))
 )
 
-png("HMO_utilization.png", width = 16, height =8, units = 'in', res = 300)
+png("R_plots/Figure_1b.png", width = 16, height =8, units = 'in', res = 300)
 
 t <- data.matrix(t(data))
 Heatmap(t,col=mycol,show_row_names = TRUE,show_heatmap_legend = FALSE, top_annotation=column_ha, 

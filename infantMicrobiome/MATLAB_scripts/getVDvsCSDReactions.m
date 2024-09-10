@@ -1,5 +1,6 @@
 
-% create a table of reactions enriched and depleted in VD vs. CSD
+% create Table S7a-b: reaction abundance and presence enriched and 
+% depleted in VD vs. CSD
 
 metadata = readInputTableForPipeline([rootDir filesep 'inputFiles' filesep 'Sample_metadata.csv']);
 timePoints = {'5 days','1 month','6 months','1 year'};
@@ -8,7 +9,10 @@ cd('inputFiles')
 database=loadVMHDatabase;
 cd(rootDir)
 
-datasets = {'Reaction_abundance','Reaction_presence'};
+datasets = {
+    'Reaction_abundance','Table_S7a'
+    'Reaction_presence','Table_S7b'
+    };
 
 for i=1:length(datasets)
     statTable = {'Subsystem'};
@@ -17,7 +21,7 @@ for i=1:length(datasets)
     cnt = 2;
 
     for j=1:length(timePoints)
-        stats=readInputTableForPipeline([rootDir filesep 'Statistical_analysis_COSMIC' filesep datasets{i} '_' strrep(timePoints{j},' ','_') '.csv']);
+        stats=readInputTableForPipeline([rootDir filesep 'Statistical_analysis_COSMIC' filesep datasets{i,1} '_' strrep(timePoints{j},' ','_') '_birthMode.csv']);
         stats(find(strcmp(stats(:,1),'biomassPan')),:)=[];
         % get the reactions that are significantly different after
         % correction for FDR, and only before correction for FDR
@@ -57,6 +61,20 @@ for i=1:length(datasets)
             rxnsListBeforeFDR{2}{k,2}=database.reactions{find(strcmp(database.reactions(:,1),rxnsListBeforeFDR{2}{k,1})),11};
         end
         % fill in the table
+         statTable{1,cnt} = [timePoints{j} ', higher in VD, before correction for FDR'];
+        statTable(2:end,cnt) = {'0'};
+        for k=1:size(rxnsListBeforeFDR{1},1)
+            findSub = find(strcmp(statTable(:,1),rxnsListBeforeFDR{1}{k,2}));
+            statTable{findSub,cnt} = num2str(str2double(statTable{findSub,cnt}) + 1);
+        end
+        cnt = cnt+1;
+        statTable{1,cnt} = [timePoints{j} ', higher in CSD, before correction for FDR'];
+        statTable(2:end,cnt) = {'0'};
+        for k=1:size(rxnsListBeforeFDR{2},1)
+            findSub = find(strcmp(statTable(:,1),rxnsListBeforeFDR{2}{k,2}));
+            statTable{findSub,cnt} = num2str(str2double(statTable{findSub,cnt}) + 1);
+        end
+        cnt = cnt+1;
         statTable{1,cnt} = [timePoints{j} ', higher in VD, after correction for FDR'];
         statTable(2:end,cnt) = {'0'};
         for k=1:size(rxnsListAfterFDR{1},1)
@@ -71,20 +89,6 @@ for i=1:length(datasets)
             statTable{findSub,cnt} = num2str(str2double(statTable{findSub,cnt}) + 1);
         end
         cnt = cnt+1;
-        statTable{1,cnt} = [timePoints{j} ', higher in VD, before correction for FDR'];
-        statTable(2:end,cnt) = {'0'};
-        for k=1:size(rxnsListBeforeFDR{1},1)
-            findSub = find(strcmp(statTable(:,1),rxnsListBeforeFDR{1}{k,2}));
-            statTable{findSub,cnt} = num2str(str2double(statTable{findSub,cnt}) + 1);
-        end
-        cnt = cnt+1;
-        statTable{1,cnt} = [timePoints{j} ', higher in CSD, before correction for FDR'];
-        statTable(2:end,cnt) = {'0'};
-        for k=1:size(rxnsListBeforeFDR{2},1)
-            findSub = find(strcmp(statTable(:,1),rxnsListBeforeFDR{2}{k,2}));
-            statTable{findSub,cnt} = num2str(str2double(statTable{findSub,cnt}) + 1);
-        end
-        cnt = cnt+1;
     end
     % remove zeros
     delArray = [];
@@ -94,6 +98,6 @@ for i=1:length(datasets)
         end
     end
     statTable(delArray,:) = [];
-    writetable(cell2table(statTable),[datasets{i} '_stats.csv'],'writeVariableNames',false)
+    writetable(cell2table(statTable),[datasets{i,2} '.csv'],'writeVariableNames',false)
 end
 
