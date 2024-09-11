@@ -99,10 +99,10 @@ growth = {};
 mkdir([pwd filesep 'Models'])
 
 samples = normData(1,2:end);
-for i = 1:length(samples) %for each sample
-    [modelS, A_keep] = fastcormics_RNAseq(model, discretized(:,i), normData(2:end,1), genesMapped, ...
+for i = 1:length(samples) %for each sample[modelS, A_keep] = fastcormics_RNAseq(model, discretized(:,i), normData(2:end,1), genesMapped, ...
         biomass_rxn, already_mapped_tag, consensus_proportion, epsilon, optional_settings);
     modelS = updateGenes(modelS);
+    
     
     % scale fluxes with eFlux
     expressionData = struct;

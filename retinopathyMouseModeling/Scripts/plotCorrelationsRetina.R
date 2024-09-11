@@ -6,6 +6,7 @@ library(ComplexHeatmap)
 
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
+setwd("..")
 
 ### Lipidomics
 #### fluxes ####

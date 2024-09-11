@@ -8,8 +8,12 @@ cd(currentDir)
 
 addpath([pwd filesep 'Scripts'])
 
-createModels
-computeFluxes
-exportFluxes
-doStatisticalAnalysis
-calculateCorrelations
+% Optional: create sample-specific models
+%% Note: due to differeces in gap-filling, newly created models
+createModelsRetina
+
+% Start from here to reproduce the data from the article
+computeFluxesRetina
+exportFluxesRetina
+doStatisticalAnalysisRetina
+calculateCorrelationsRetina
