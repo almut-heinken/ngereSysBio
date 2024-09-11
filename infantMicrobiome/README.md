@@ -12,5 +12,5 @@ Software requirements:
 Afterwards, run the scripts in the folder "R_scripts" in any order to generate the remaining figures. 
 R version 4.3.0 with RStudio had been used in the paper.
 
-- Rola Shaaban, Susheel Banu Busi, Paul Wilmes, Jean-Louis Guéant, and Almut Heinken, September 2024
+- Rola Shaaban, Susheel Bhanu Busi, Paul Wilmes, Jean-Louis Guéant, and Almut Heinken, September 2024
 
