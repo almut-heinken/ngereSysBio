@@ -95,8 +95,8 @@ save('AGORA2_Gapfills','Gapfills');
 [notGrowing,Biomass_fluxes] = plotBiomassTestResults(agora2GFFolder, 'AGORA2', 'numWorkers', numWorkers);
 tooHighATP = plotATPTestResults(agora2GFFolder, 'AGORA2', 'numWorkers', numWorkers);
 
-% get additionally created reconstructions for reference genomes
-inputFolder = [pwd filesep 'Reconstruction' filesep 'ReferenceGenomes' filesep 'refinedReconstructions'];
+% get the additionally 289 created reconstructions
+inputFolder = [pwd filesep 'refinedReconstructionsPublished'];
 
 dInfo = dir(inputFolder);
 modelList={dInfo.name};

@@ -13,7 +13,7 @@ addpath(genpath([rootDir filesep 'MATLAB_scripts']))
 addpath([rootDir filesep 'inputFiles'])
 
 %% OPTIONAL %%
-% Refine 288 additional draft reconstructions
+% Refine 289 additional draft reconstructions
 runReconstruction
 % NOTE: Due to some randomness in automated gap-filling in DEMETER, the 
 % resulting refined reconstructions may differ slightly from the previously  
@@ -21,7 +21,7 @@ runReconstruction
 % following analyses. 
 
 %% REPRODUCTION OF SIMULATIONS AND ANALYSES
-% To extract the version of the 288 refined reconstructions used in the
+% To extract the version of the 289 refined reconstructions used in the
 % paper:
 unzip('refinedReconstructionsPublished')
 
