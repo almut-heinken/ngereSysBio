@@ -53,18 +53,3 @@ for i=2:size(normalizedCoverage,1)
 end
 
 cell2csv('inputFiles/normalizedCoverage_MaternalGutMicrobiome.csv',normalizedCoverage)
-
-[normalizedCoverage,normalizedCoveragePath] = normalizeCoverage('inputFiles/Maternal_vaginal_microbiome.csv',0.001);
-for i=2:size(normalizedCoverage,1)
-    for j=2:size(normalizedCoverage,2)
-    normalizedCoverage{i,j} = num2str(normalizedCoverage{i,j});
-    end
-end
-[C,I] = intersect(normalizedCoverage,toRem);
-normalizedCoverage(I,:) = [];
-
-for i=2:size(normalizedCoverage,1)
-    normalizedCoverage{i,1} = ['pan' normalizedCoverage{i,1}];
-end
-
-cell2csv('inputFiles/normalizedCoverage_MaternalVaginalMicrobiome.csv',normalizedCoverage)
