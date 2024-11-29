@@ -45,7 +45,7 @@ mkdir([rootDir filesep 'ContributionsByMetabolite'])
 metadata = readInputTableForPipeline([rootDir filesep 'inputFiles' filesep 'Sample_metadata.csv']);
 
 % read contributions to metabolites
-microbeInfo = readInputTableForPipeline([rootDir filesep 'inputFiles' filesep 'AGORA2_infoFile.xlsx']);
+microbeInfo = readInputTableForPipeline([rootDir filesep 'inputFiles' filesep 'expanded_AGORA2_infoFile.xlsx']);
 microbeInfo(:,1:4)=[];
 microbeInfo(:,1)=strrep(microbeInfo(:,1),'[','');
 microbeInfo(:,1)=strrep(microbeInfo(:,1),' ','_');

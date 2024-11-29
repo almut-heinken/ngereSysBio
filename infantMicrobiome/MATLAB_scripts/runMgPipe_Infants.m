@@ -1,5 +1,4 @@
 
-
 % Run microbiome modeling pipeline consisting of creating an input file
 % with relative strain abundances, creation of microbiome models,
 % interrogation of microbiome models through simulations, and plotting of
@@ -51,57 +50,31 @@ corrMethod = 'Spearman';
 [FluxCorrelations, PValues, TaxonomyInfo] = correlateFluxWithTaxonAbundance(abunFilePath, fluxPath, taxInfo, corrMethod);
 
 % export the results
-taxa=fieldnames(FluxCorrelations);
-for i=1:length(taxa)
-    % first correct for multiple testing
-    cnt=1;
-    pvals = [];
-    for j=2:size(PValues.(taxa{i}),1)
-        for k=2:size(PValues.(taxa{i}),2)
-            pvals(cnt,1)=PValues.(taxa{i}){j,k};
-            cnt=cnt+1;
-        end
-    end
-    pvals = mafdr(pvals,'BHFDR', true);
-    cnt=1;
-    for j=2:size(PValues.(taxa{i}),1)
-        for k=2:size(PValues.(taxa{i}),2)
-            PValues.(taxa{i}){j,k} = pvals(cnt,1);
-            cnt=cnt+1;
-        end
-    end
-    % then remove lesser correlations
-    cnt=1;
-    delArray=[];
-    for j=2:size(FluxCorrelations.(taxa{i}),2)
-        if ~any(abs(cell2mat(FluxCorrelations.(taxa{i})(2:end,j))) > 0.8)
-            delArray(cnt,1)=j;
-            cnt=cnt+1;
-        end
-    end
-    FluxCorrelations.(taxa{i})(:,delArray)=[];
-
-    cnt=1;
-    delArray=[];
-    for j=2:size(FluxCorrelations.(taxa{i}),1)
-        if ~any(abs(cell2mat(FluxCorrelations.(taxa{i})(j,2:end))) > 0.8)
-            delArray(cnt,1)=j;
-            cnt=cnt+1;
-        end
-    end
-    FluxCorrelations.(taxa{i})(delArray,:)=[];
-    if i>2
-        [C,I]=setdiff(TaxonomyInfo.(taxa{i})(:,1),FluxCorrelations.(taxa{i})(2:end,1),'stable');
-        TaxonomyInfo.(taxa{i})(I(2:end),:)=[];
-    end
-
-    FluxCorrelations.(taxa{i})(find(strcmp(FluxCorrelations.(taxa{i})(:,1),'')),:)=[];
-    writetable(cell2table(FluxCorrelations.(taxa{i})),[rootDir filesep 'Modeling_COSMIC' filesep 'Correlations' filesep 'FluxCorrelations_Secretion_' taxa{i} '.csv'],'writeVariableNames',false)
-    writetable(cell2table(PValues.(taxa{i})),[rootDir filesep 'Modeling_COSMIC' filesep 'Correlations' filesep 'PValues_Secretion_' taxa{i} '.csv'],'writeVariableNames',false)
-    if i>1
-        writetable(cell2table(TaxonomyInfo.(taxa{i})),[rootDir filesep 'Modeling_COSMIC' filesep 'Correlations' filesep 'TaxonomyInfo_Secretion_' taxa{i} '.csv'],'writeVariableNames',false)
+% keep only high correlations
+cnt=1;
+delArray=[];
+for i=2:size(FluxCorrelations.('Species'),2)
+    if ~any(abs(cell2mat(FluxCorrelations.('Species')(2:end,i))) > 0.8)
+        delArray(cnt,1)=i;
+        cnt=cnt+1;
     end
 end
+FluxCorrelations.('Species')(:,delArray)=[];
+cnt=1;
+delArray=[];
+for i=2:size(FluxCorrelations.('Species'),1)
+    if ~any(abs(cell2mat(FluxCorrelations.('Species')(i,2:end))) > 0.8)
+        delArray(cnt,1)=i;
+        cnt=cnt+1;
+    end
+end
+FluxCorrelations.('Species')(delArray,:)=[];
+[C,I]=setdiff(TaxonomyInfo.('Species')(:,1),FluxCorrelations.('Species')(2:end,1),'stable');
+TaxonomyInfo.('Species')(I(2:end),:)=[];
+FluxCorrelations.('Species')(find(strcmp(FluxCorrelations.('Species')(:,1),'')),:)=[];
+writetable(cell2table(FluxCorrelations.('Species')),[rootDir filesep 'Modeling_COSMIC' filesep 'Correlations' filesep 'FluxCorrelations_Secretion_Species.csv'],'writeVariableNames',false)
+writetable(cell2table(PValues.('Species')),[rootDir filesep 'Modeling_COSMIC' filesep 'Correlations' filesep 'PValues_Secretion_Species.csv'],'writeVariableNames',false)
+writetable(cell2table(TaxonomyInfo.('Species')),[rootDir filesep 'Modeling_COSMIC' filesep 'Correlations' filesep 'TaxonomyInfo_Secretion_Species.csv'],'writeVariableNames',false)
 
 %% for comparison with adults, compute fluxes on the standard Western diet
 

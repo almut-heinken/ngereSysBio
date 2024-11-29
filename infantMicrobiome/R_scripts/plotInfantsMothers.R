@@ -5,6 +5,7 @@ library(ComplexHeatmap)
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
 setwd("..")
+dir.create("R_plots")
 
 mycol <- c("white",brewer.pal(9,"Reds")[1:9])
 

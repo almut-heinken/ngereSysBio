@@ -5,6 +5,7 @@ library(ComplexHeatmap)
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
 setwd("..")
+dir.create("R_plots")
 
 ### HMO utilization by strain
 data = read.csv("Exported_results/HMOsUsed.csv",header=T,row.names=1, check.names = FALSE)

@@ -7,7 +7,6 @@ rootDir = pwd;
 % Start the simulations
 initCobraToolbox
 solverOK=changeCobraSolver('ibm_cplex','LP');
-cd(rootDir)
 
 addpath(genpath([rootDir filesep 'MATLAB_scripts']))
 addpath([rootDir filesep 'inputFiles'])

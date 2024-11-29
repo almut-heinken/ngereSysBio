@@ -7,6 +7,7 @@ library(ComplexHeatmap)
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
 setwd("..")
+dir.create("R_plots")
 
 ####### have metabolite contributions in one plot ##########
 ##### different taxon levels ######

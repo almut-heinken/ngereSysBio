@@ -8,6 +8,7 @@ library(ComplexHeatmap)
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
 setwd("..")
+dir.create("R_plots")
 
 ### metadata infants
 metadata = read.csv("inputFiles/Sample_metadata.csv",header=T,row.names=1, check.names = FALSE, stringsAsFactors=T)[c("Group","Time point")]

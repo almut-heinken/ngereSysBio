@@ -3,8 +3,6 @@
 % vaginally and by Cesarian section separate by time point, as well as
 % antibiotics vs. no antibiotics
 
-rootDir = pwd;
-
 metadata = readInputTableForPipeline([rootDir filesep 'inputFiles' filesep 'Sample_metadata.csv']);
 timePoints = {'5 days','1 month','6 months','1 year'};
 
@@ -189,11 +187,32 @@ for d=1:size(datasets,1)
                     end
                 end
                 
-                table=cell2table(table,'VariableNames',{'TimePoint','Group','Value'});
-                table.Group=categorical(table.Group,timePoints);
+                table=cell2table(table,'VariableNames',{'Group','TimePoint','Value'});
+                table.TimePoint=categorical(table.TimePoint,timePoints);
+                cats = grp2idx(table.TimePoint);
                 
                 figure
-                boxchart(table.Group,table.Value,'GroupByColor',table.TimePoint)
+                b=0.5;
+                boxchart(cats,table.Value,'GroupByColor',table.Group,'BoxWidth',b, 'MarkerStyle', 'none')
+                
+                % plot individual values
+                groups = unique(table.Group);
+                ucat = unique(cats);
+                s = (1-b)/(2*numel(groups));
+                b = b / numel(groups);
+                hold on;
+                for icat = 1:numel(ucat)
+                    for icol = 1:numel(groups)
+                        idx = intersect(find(cats==ucat(icat)),find(strcmp(table.Group,groups{icol})));
+                        x = icat - 0.5 + s + (b/2) + (icol-1)*(s+b+s);
+                        scatter(x*ones(nnz(idx),1), table.Value(idx), "k.", 'HandleVisibility','off');
+                    end
+                end
+                % set labels
+                set(gca,'Xticklabel',{'','5 days','1 month','6 months','1 year','','','',''})
+                xtickangle(45)
+                
+                hold on
                 legend('Location','best')
                 if d==1 || d>5
                     ylabel('mmol/person/day')
@@ -211,8 +230,7 @@ for d=1:size(datasets,1)
                     h=title(data{l,1});
                 end
                 set(h,'interpreter','none')
-                xticklabels({'5 days','1 month','6 months','1 year'})
-                set(gca,'FontSize',18)
+                set(gca,'FontSize',16)
                 filename = strrep(data{l,1},' ','_');
                 filename = strrep(filename,'(','_');
                 filename = strrep(filename,')','_');

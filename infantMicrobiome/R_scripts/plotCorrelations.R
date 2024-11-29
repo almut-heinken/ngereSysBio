@@ -5,6 +5,7 @@ library(ComplexHeatmap)
 currPath <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(currPath)
 setwd("..")
+dir.create("R_plots")
   
 #### plot species correlations #####
 fpath = paste("Modeling_COSMIC/Correlations/FluxCorrelations_Secretion_Species.csv",sep="")
@@ -36,7 +37,7 @@ column_ha = HeatmapAnnotation(df = NULL, Phylum=as.character(taxonomy$Phylum),
                                                                      labels_gp = gpar(fontsize = 12)))
 )
   
-png("R_plots/Figure_S1.png", width = 18, height =16, units = 'in', res = 300)
+png("R_plots/Figure_S1.png", width = 16, height =16, units = 'in', res = 300)
   
 t <- data.matrix(t(data))
 Heatmap(t,col=mycol,show_row_names = TRUE,show_heatmap_legend = TRUE,name = "Correlation",column_names_side = c("top"),
@@ -46,6 +47,4 @@ Heatmap(t,col=mycol,show_row_names = TRUE,show_heatmap_legend = TRUE,name = "Cor
 )
   
 dev.off()
-  
-setwd("..")
   
