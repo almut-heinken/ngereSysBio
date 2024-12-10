@@ -26,7 +26,31 @@ mkdir([rootDir filesep 'Statistical_analysis_with_maternalGut_COSMIC'])
 for d=1:size(datasets)
     for i=1:length(timePoints)
         data = readInputTableForPipeline([rootDir filesep 'Modeling_COSMIC' filesep datasets{d,1}]);
+        if d==1
+            % remove net secretion fluxes that are zero
+            delArray=[];
+            cnt=1;
+            for j=2:size(data,1)
+                if abs(sum(cell2mat(data(j,2:end))))<0.000001 || all(cell2mat(data(j,2:end)) == data{j,2})
+                    delArray(cnt)=j;
+                    cnt=cnt+1;
+                end
+            end
+            data(delArray,:) = [];
+        end
         dataM = readInputTableForPipeline([rootDir filesep 'Modeling_MaternalGutMicrobiomes' filesep datasets{d,1}]);
+        if d==1
+            % remove net secretion fluxes that are zero
+            delArray=[];
+            cnt=1;
+            for j=2:size(dataM,1)
+                if abs(sum(cell2mat(dataM(j,2:end))))<0.000001 || all(cell2mat(dataM(j,2:end)) == dataM{j,2})
+                    delArray(cnt)=j;
+                    cnt=cnt+1;
+                end
+            end
+            dataM(delArray,:) = [];
+        end
         feats=union(data(2:end,1),dataM(2:end,1));
         
         findSamp = find(strcmp(metadata(:,4),timePoints{i}));

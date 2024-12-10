@@ -119,7 +119,7 @@ h4 <-Heatmap(t,col=mycol,show_column_names = FALSE,column_title = "One year",
 
 ht_list <- h1+h2+h3+h4
 
-png("R_plots/Figure_2c.png", width = 16, height = 8, units = 'in', res = 300)
+png("R_plots/Figure_2b.png", width = 16, height = 8, units = 'in', res = 300)
 
 draw(ht_list,ht_gap = unit(0.2,"cm"))
 

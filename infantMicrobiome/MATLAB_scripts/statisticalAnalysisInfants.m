@@ -24,6 +24,20 @@ mkdir([rootDir filesep 'Metabolite_Plots_COSMIC'])
 for d=1:size(datasets,1)
     data = readInputTableForPipeline([rootDir filesep 'Modeling_COSMIC' filesep datasets{d,1}]);
     data(1,:) = strrep(data(1,:),'microbiota_model_diet_','');
+    
+    if d==1
+        % remove net secretion fluxes that are zero
+        delArray=[];
+        cnt=1;
+        for i=2:size(data,1)
+            if abs(sum(cell2mat(data(i,2:end))))<0.000001 || all(cell2mat(data(i,2:end)) == data{i,2})
+                delArray(cnt)=i;
+                cnt=cnt+1;
+            end
+        end
+        data(delArray,:) = [];
+    end
+    
     for i=1:length(timePoints)
         % analyze VD and CSD samples by time point
         statistics = {'Feature','Mean VD','SD VD','Mean CSD','SD CSD','p-value','after FDR'};
