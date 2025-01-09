@@ -1,6 +1,6 @@
 MicrobeID	Acetate kinase (acetate producer or consumer)	Bifid shunt	Acetogen pathway	Formate producer	D-lactate producer	L-lactate producer	Ethanol producer or consumer	Succinate producer	Propionate from succinate	Propionate from propane-1,2-diol	Propionate from lactate (acrylate pathway)	Propionate from threonine	Wood-Werkman cycle	Butyrate via butyryl-CoA: acetate CoA transferase	Butyrate via butyrate kinase	Butyrate from lysine via butyrate-acetoacetate CoA-transferase	Butyrate from glutarate or glutamate	Butyrate from 4-hydroxybutyrate or succinate	Hydrogen from ferredoxin oxidoreductase	Hydrogen from formate hydrogen lyase	Methanogenesis	Sulfate reducer	Isobutyrate producer	Isovalerate producer	Acetoin producer	2,3-butanediol producer	Indole producer	Phenylacetate producer	Butanol producer	Valerate producer	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
-Achromobacter_sp_2789STDY5608615	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Achromobacter_sp_2789STDY5608621	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Achromobacter_sp_2789STDY5608615	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Achromobacter_sp_2789STDY5608621	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Actinomyces_bouchesdurhonensis_Marseille_P2825	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Actinomyces_sp_HMSC035G02	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Actinomyces_sp_ICM54	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
@@ -9,27 +9,29 @@ Actinomyces_sp_S6_Spd3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Actinomyces_sp_oral_taxon_172_str_F0311	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Actinomyces_sp_oral_taxon_181_str_F0379	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Actinotignum_timonense_UMB0063	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Agathobaculum_butyriciproducens_OF09_27	1	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Alistipes_sp_AM16_43	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Anaerococcus_nagyae_DSM_101193	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Anaerococcus_sp_HMSC065G05	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Anaerococcus_sp_HMSC068A02	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Anaerococcus_sp_HMSC075B03	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Anaerostipes_sp_AF04_45	1	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0						
-Atopobium_sp_BS2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Atopobium_sp_ICM42b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Agathobaculum_butyriciproducens_OF09_27	1	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Alistipes_sp_AM16_43	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Anaerococcus_nagyae_DSM_101193	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Anaerococcus_sp_HMSC065G05	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Anaerococcus_sp_HMSC068A02	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Anaerococcus_sp_HMSC075B03	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Anaerostipes_sp_AF04_45	1	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Anaerotruncus_sp_1XD22_93	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Atopobium_sp_BS2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Atopobium_sp_ICM42b	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Bacteroides_sp_AF14_46	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 22659832					
 Bacteroides_sp_AF17_1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 22659832					
 Bacteroides_sp_AM37_9	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 22659832					
-Bifidobacterium_sp_N4G05	0	1	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Bifidobacterium_sp_N5G01	0	1	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Bifidobacterium_sp_N4G05	0	1	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Bifidobacterium_sp_N5G01	0	1	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Blautia_argi_KCTC_15426	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_faecicola_KGMB01111	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
-Blautia_schinkii_DSM_10518	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.	PMID: 18676476				
+Blautia_schinkii_DSM_10518	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AF13_16	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AF14_40	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AF17_9LB	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AF19_1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
+Blautia_sp_AF19_10LB	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AF22_5LB	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AF26_2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AF32_4BH	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
@@ -38,6 +40,7 @@ Blautia_sp_AM23_13AC	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Blautia_sp_AM29_29	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AM42_2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_AM47_4	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
+Blautia_sp_An249	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_BCRC_81119	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_KLE_1732	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_Marseille_P2398	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
@@ -50,124 +53,146 @@ Blautia_sp_SF_50	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Kri
 Blautia_sp_SG_772	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Blautia_sp_aa_0143	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Burkholderiales_bacterium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Butyricicoccus_sp_AF10_3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Butyricicoccus_sp_AM05_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Butyricicoccus_sp_AM27_36	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Butyricicoccus_sp_AM28_25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Butyricicoccus_sp_AM42_5AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Butyricicoccus_sp_GAM44	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Campylobacter_sp_AAUH_44UCsig_a	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Candidatus_Microthrix_parvicella_Bio17_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Butyricicoccus_sp_AF10_3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Butyricicoccus_sp_AM05_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Butyricicoccus_sp_AM18_35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Butyricicoccus_sp_AM27_36	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Butyricicoccus_sp_AM28_25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Butyricicoccus_sp_AM42_5AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Butyricicoccus_sp_GAM44	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Butyricicoccus_sp_OF13_6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Campylobacter_sp_AAUH_44UCsig_a	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Candidatus_Microthrix_parvicella_Bio17_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Candidatus_Saccharibacteria_bacterium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Citrobacter_farmeri_AUSMDU00008141	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Citrobacter_sp_CtB7_12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridia_bacterium_UC5_1_1D1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridia_bacterium_UC5_1_1D10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridia_bacterium_UC5_1_2G4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridia_bacterium_UC5_1_2H11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridia_bacterium_UC5_1_2H6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_AF18_31LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_AF29_16BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_AF31_3BH	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_AF42_6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_AM27_36LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_OF09_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_OM02_2AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_OM08_6BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiaceae_bacterium_TF01_6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_AM23_16LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_CCNA10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_Choco116	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_KLE1615	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_VE202_01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_VE202_03	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_VE202_07	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_VE202_16	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridiales_bacterium_VE202_18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Citrobacter_farmeri_AUSMDU00008141	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Citrobacter_sp_CtB7_12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridia_bacterium_UC5_1_1D1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridia_bacterium_UC5_1_1D10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridia_bacterium_UC5_1_2G4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridia_bacterium_UC5_1_2H11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridia_bacterium_UC5_1_2H6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_AF18_31LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_AF29_16BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_AF31_3BH	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_AF42_6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_AM27_36LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_OF09_1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_OM02_2AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_OM08_6BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiaceae_bacterium_TF01_6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_AM23_16LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_CCNA10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_Choco116	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_KLE1615	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_VE202_01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_VE202_03	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_VE202_07	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_VE202_13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_VE202_14	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_VE202_16	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridiales_bacterium_VE202_18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Clostridiales_bacterium_VE202_26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_carnis_NCTC10913	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_neonatale_LCDC_no_99_A_005	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID 25232167					
-Clostridium_nigeriense_Marseille_P2414	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_septicum_DSM_7534	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_1_1_41A1FAA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AF18_27	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AF27_2AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AF34_10BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AF34_13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AF36_18BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AM22_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AM27_31LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AM30_24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AM32_2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AM33_3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AM34_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_AM34_9AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_C105KSO14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_DSM_8431	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_HMb25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_OF03_18AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_SN20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_TF08_15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_sp_TM06_18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Clostridium_transplantifaecale_Marseille_P8228	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Coprobacillus_sp_AF09_1A	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0						
-Coprococcus_phoceensis_Marseille_P3062	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Coprococcus_sp_AF18_48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Coprococcus_sp_AF27_8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Coprococcus_sp_AM27_12LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Coriobacteriaceae_bacterium_CHKCI002	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Dermabacter_hominis_NBRC_106157	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Clostridiales_bacterium_VE202_28	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_carnis_NCTC10913	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_gasigenes_DSM_12272	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_indicum_PI_S10_A1B	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_neonatale_LCDC_no_99_A_005	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_nigeriense_Marseille_P2414	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_saccharobutylicum_DSM_13864	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_septicum_DSM_7534	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_1_1_41A1FAA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AF18_27	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AF27_2AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AF34_10BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AF34_13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AF36_18BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM22_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM25_23AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM27_31LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM29_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM30_24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM32_2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM33_3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM34_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM34_9AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM42_4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_AM58_1XD	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_Ade_TY	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_C105KSO14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_DSM_8431	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_HMb25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_Marseille_P2415	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_OF03_18AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_SN20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_TF08_15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_TM06_18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_sp_chh4_2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Clostridium_transplantifaecale_Marseille_P8228	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Coprobacillus_sp_AF09_1A	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Coprococcus_phoceensis_Marseille_P3062	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Coprococcus_sp_AF18_48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Coprococcus_sp_AF27_8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Coprococcus_sp_AM27_12LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Coriobacteriaceae_bacterium_CHKCI002	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Dermabacter_hominis_NBRC_106157	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Dorea_phocaeensis_Marseille_P4003	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Dorea_sp_AGR2135	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Dorea_sp_Marseille_P4042	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
-Drancourtella_massiliensis_An770	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Eisenbergiella_massiliensis_AT11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Eisenbergiella_sp_OF01_20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Enterobacter_sp_Bisph2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0						
-Enterobacter_sp_NFR05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0						
-Enterocloster_aldenensis_AF19_9LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Drancourtella_massiliensis_An770	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Eggerthella_timonensis_Marseille_P3135	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
+Eisenbergiella_massiliensis_AT11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Eisenbergiella_sp_OF01_20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Enterobacter_sp_Bisph2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Enterobacter_sp_NFR05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Enterocloster_aldenensis_AF19_9LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Enterococcus_canintestini_DSM_21207	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 3. New York: Springer, 2009, v2C, p655					
 Enterococcus_sp_5B3_DIV0040	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 3. New York: Springer, 2009, v2C, p655					
 Enterococcus_sp_6D12_DIV0197	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 3. New York: Springer, 2009, v2C, p655					
 Enterococcus_sp_HMSC05C03	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 3. New York: Springer, 2009, v2C, p655					
-Eubacterium_sp_AF22_9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Eubacterium_sp_AM46_8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Eubacterium_sp_AM49_13BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Eubacterium_sp_AF22_9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Eubacterium_sp_AM46_8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Eubacterium_sp_AM49_13BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Eubacterium_sp_OM08_24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Faecalibacterium_sp_AF28_13AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Faecalibacterium_sp_OF04_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
-Faecalimonas_umbilicata_EGH7	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Faecalicatena_contorta_ET52	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Faecalimonas_umbilicata_EGH7	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Firmicutes_bacterium_AF12_30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_AF16_15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_AF22_6AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_AF25_13AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_AF36_19BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_AF36_3BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_AM55_24TS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_AM59_13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_OM08_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Firmicutes_bacterium_TM09_10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Gordonibacter_sp_An230	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Gordonibacter_sp_An232A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Gordonibacter_urolithinfaciens_DSM_27213	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Haemophilus_sp_CCUG_60358	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Haemophilus_sp_CCUG_66565	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Haemophilus_sp_HMSC061E01	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Haemophilus_sp_HMSC068C11	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Haemophilus_sp_HMSC71H05	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Haemophilus_sp_oral_taxon_036	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Hungatella_effluvii_DSM_24995	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Firmicutes_bacterium_AF16_15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_AF22_6AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_AF25_13AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_AF36_19BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_AF36_3BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_AM55_24TS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_AM59_13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_OM08_11AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Firmicutes_bacterium_TM09_10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Flavonifractor_sp_An10	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Flavonifractor_sp_An100	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Flavonifractor_sp_An306	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Flavonifractor_sp_An82	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Gordonibacter_sp_An230	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Gordonibacter_sp_An232A	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Gordonibacter_urolithinfaciens_DSM_27213	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Haemophilus_sp_CCUG_60358	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Haemophilus_sp_CCUG_66565	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Haemophilus_sp_HMSC061E01	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Haemophilus_sp_HMSC068C11	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Haemophilus_sp_HMSC71H05	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Haemophilus_sp_oral_taxon_036	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Hungatella_effluvii_DSM_24995	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Intestinibacillus_sp_Marseille_P4005	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Intestinibacillus_sp_Marseille_P6563	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Isoptericola_variabilis_JCM_11754	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Klebsiella_grimontii_WCHKG020121	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0						
-Klebsiella_sp_WCHKl090539	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0						
-Kluyvera_sp_Nf5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0						
-Lachnoclostridium_edouardi_Marseille_P3397	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Lachnoclostridium_phocaeense_Marseille_P3177T	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Lachnoclostridium_sp_An14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Lachnoclostridium_sp_An169	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Lachnoclostridium_sp_An298	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Lachnoclostridium_sp_An76	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Isoptericola_variabilis_JCM_11754	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Klebsiella_grimontii_WCHKG020121	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Klebsiella_sp_WCHKl090539	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Kluyvera_sp_Nf5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Lachnoclostridium_edouardi_Marseille_P3397	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Lachnoclostridium_phocaeense_Marseille_P3177T	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Lachnoclostridium_sp_An14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Lachnoclostridium_sp_An169	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Lachnoclostridium_sp_An298	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Lachnoclostridium_sp_An76	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Lachnospiraceae_bacterium_6_1_37FAA	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Lachnospiraceae_bacterium_AM10_38	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Lachnospiraceae_bacterium_AM21_21	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
@@ -176,65 +201,94 @@ Lachnospiraceae_bacterium_AM26_1LB	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Lachnospiraceae_bacterium_AM48_27BH	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Lachnospiraceae_bacterium_GAM79	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Lachnospiraceae_bacterium_NLAE_zl_G231	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
+Lachnospiraceae_bacterium_OF09_6	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Lachnospiraceae_bacterium_OF11_28	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
+Lachnospiraceae_bacterium_OM04_12BH	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Lactobacillus_sp_HMSC068B07	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
-Lawsonella_clevelandensis_X1036	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Lawsonibacter_asaccharolyticus_3BBH22	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Luxibacter_massiliensis_Marseille_P5551	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Mediterraneibacter_glycyrrhizinilyticus_JCM_13369	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Metakosakonia_sp_MRY16_398	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0						
-Mogibacterium_diversum_CCUG_47132	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Negativicoccus_massiliensis_Marseille_P2082	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Neobittarella_massiliensis_NSJ_65	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Niameybacter_massiliensis_Mt14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Oscillibacter_sp_1_3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Oscillibacter_sp_PC13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Oscillibacter_sp_PEA192	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Oscillospiraceae_bacterium_VE202_24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Phytobacter_sp_SCO41	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0						
-Phytobacter_ursingii_CAV1151	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0						
-Pseudoflavonifractor_sp_An184	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Lawsonella_clevelandensis_X1036	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Lawsonibacter_asaccharolyticus_3BBH22	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Luxibacter_massiliensis_Marseille_P5551	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Mediterraneibacter_glycyrrhizinilyticus_JCM_13369	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Merdimonas_faecis_BR31	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Metakosakonia_sp_MRY16_398	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Mogibacterium_diversum_CCUG_47132	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Negativicoccus_massiliensis_Marseille_P2082	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Neobittarella_massiliensis_NSJ_65	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Niameybacter_massiliensis_Mt14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Oscillibacter_sp_1_3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Oscillibacter_sp_PC13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Oscillibacter_sp_PEA192	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Oscillospiraceae_bacterium_VE202_24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Peptostreptococcaceae_bacterium_VA2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Phytobacter_sp_SCO41	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Phytobacter_ursingii_CAV1151	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Pseudoflavonifractor_sp_AF19_9AC	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Pseudoflavonifractor_sp_An184	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Pseudoflavonifractor_sp_Marseille_P3106	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Pseudomonas_yamanorum_LMG_27247	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
-Raoultella_terrigena_NBRC_14941	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Romboutsia_sp_Marseille_P6047	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Romboutsia_timonensis_Marseille_P326	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC061D12	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC061E04	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC062F03	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC064F07	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC065C03	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC068F09	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC072B03	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC072B04	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rothia_sp_HMSC072E10	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Rubneribacter_badeniensis_ResAG_85	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0						
-Ruminococcaceae_bacterium_AF10_16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcaceae_bacterium_TF06_43	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AF14_5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AF17_12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AF20_12LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AF21_42	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AF31_8BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AF41_9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AF46_10NS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AM16_34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AM26_12LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AM41_10BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AM42_11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_AM46_18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_DSM_100440	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_OF02_6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_OF03_6AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_OM02_16LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_OM04_4AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_OM08_9BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_TF06_23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Ruminococcus_sp_TF11_2AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Sanguibacter_keddieii_DSM_10542	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Raoultella_terrigena_NBRC_14941	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Romboutsia_lituseburensis_A25K	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Romboutsia_maritimum_CCRI_22766	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Romboutsia_sp_Marseille_P6047	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Romboutsia_timonensis_Marseille_P326	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Romboutsia_weinsteinii_CCRI_19649	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Roseburia_sp_TF10_5	1	0	0	1	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC061D12	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC061E04	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC062F03	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC064F07	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC065C03	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC068F09	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC072B03	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC072B04	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rothia_sp_HMSC072E10	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Rubneribacter_badeniensis_ResAG_85	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcaceae_bacterium_AF10_16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcaceae_bacterium_TF06_43	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF14_5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF17_12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF19_29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF20_12LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF21_42	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF25_23LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF25_28AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF31_8BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF33_11BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF41_9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AF46_10NS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM16_34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM26_12LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM27_16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM29_12LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM32_17LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM34_9LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM36_17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM40_10AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM41_10BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM42_10AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM42_11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM44_9AT	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM46_18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM50_15BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_AM54_14NS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_DSM_100440	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_OF02_6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_OF03_6AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_OM02_16LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_OM04_4AA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_OM05_7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_OM08_7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_OM08_9BH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_TF06_23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_TF11_2AC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Ruminococcus_sp_TM09_4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Sanguibacter_keddieii_DSM_10542	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Staphylococcus_sp_HMSC070D05	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
 Streptococcus_sp_1171_SSPC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Streptococcus_sp_263_SSPC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Streptococcus_sp_343_SSPC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Streptococcus_sp_400_SSPC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Streptococcus_sp_449_SSPC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Streptococcus_sp_A12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Streptococcus_sp_ACS2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Streptococcus_sp_C150	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
@@ -265,26 +319,28 @@ Streptococcus_sp_UMB1385	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Streptococcus_sp_bf_0095	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Streptococcus_suis_NCTC10234	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Streptococcus_viridans_NCTC1080	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Subdoligranulum_sp_AF14_43	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Subdoligranulum_sp_AM16_9	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Subdoligranulum_sp_APC924_74	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Subdoligranulum_sp_OF01_18	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Sutterella_sp_KLE1602	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Subdoligranulum_sp_AF14_43	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Subdoligranulum_sp_AM16_9	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Subdoligranulum_sp_APC924_74	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Subdoligranulum_sp_OF01_18	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Sutterella_sp_KLE1602	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Terrisporobacter_othiniensis_08_306576	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
 Tissierellia_bacterium_S5_A11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Varibaculum_massiliense_Marseille_P2802	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Veillonella_caviae_DSM_20738	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_infantium_T11011_4	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_ratti_ATCC_17746	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_rogosae_JCM_15642	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_AF13_2	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_AF36_20BH	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_AF42_16	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_AM51_8BH	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_ICM51a	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_S13053_19	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_S13054_11	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_T11011_6	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_T14073_2	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_sp_T34266_5	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Veillonella_tobetsuensis_ATCC_BAA_2400	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Xylanimonas_cellulosilytica_DSM_15894	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Varibaculum_massiliense_Marseille_P2802	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_caviae_DSM_20738	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_infantium_T11011_4	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_ratti_ATCC_17746	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_rodentium_NCTC12018	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_rogosae_JCM_15642	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_AF13_2	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_AF36_20BH	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_AF42_16	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_AM51_8BH	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_ICM51a	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_S13053_19	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_S13054_11	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_T11011_6	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_T14073_2	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_sp_T34266_5	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Veillonella_tobetsuensis_ATCC_BAA_2400	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
+Xylanimonas_cellulosilytica_DSM_15894	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ref1	Ref2	Ref3	Ref4	Ref5	Ref6
