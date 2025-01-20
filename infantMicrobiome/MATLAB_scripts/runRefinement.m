@@ -91,10 +91,6 @@ for i=1:steps:length(modelList)
 end
 save('AGORA2_Gapfills','Gapfills');
 
-% test if this caused any futile cycles or abolished growth
-[notGrowing,Biomass_fluxes] = plotBiomassTestResults(agora2GFFolder, 'AGORA2', 'numWorkers', numWorkers);
-tooHighATP = plotATPTestResults(agora2GFFolder, 'AGORA2', 'numWorkers', numWorkers);
-
 % get the additionally 289 created reconstructions
 inputFolder = [pwd filesep 'refinedReconstructionsPublished'];
 
@@ -116,7 +112,6 @@ hmoReactions = readInputTableForPipeline('HMO_reactions.txt');
 Flux = {};
 NoFlux = {};
 for i=2:size(hmoData,1)
-    i
     Flux{i-1,1} = hmoData{i,1};
     NoFlux{i-1,1} = hmoData{i,1};
     model = readCbModel([agora2GFFolder filesep hmoData{i,1} '.mat']);

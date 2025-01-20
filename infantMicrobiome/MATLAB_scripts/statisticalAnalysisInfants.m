@@ -73,7 +73,7 @@ for d=1:size(datasets,1)
         statistics(2:end,7)=num2cell(fdr);
         writetable(cell2table(statistics),[rootDir filesep 'Statistical_analysis_COSMIC' filesep datasets{d,2} '_' strrep(timePoints{i},' ','_') '_birthMode.csv'],'WriteVariableNames',false)
         
-        % analyze antiboitcs vs. no antibiotics by time point
+        % analyze antibiotics vs. no antibiotics by time point
         statistics = {'Feature','Mean None','SD None','Mean Antibiotics','SD Antibiotics','p-value','after FDR'};
 
         for j=2:size(data,1)
@@ -107,10 +107,24 @@ for d=1:size(datasets,1)
         statistics(2:end,7)=num2cell(fdr);
         writetable(cell2table(statistics),[rootDir filesep 'Statistical_analysis_COSMIC' filesep datasets{d,2} '_' strrep(timePoints{i},' ','_') '_antibiotics.csv'],'WriteVariableNames',false)
     end
-
+    
     % analyze differences between time points
     data = readInputTableForPipeline([rootDir filesep 'Modeling_COSMIC' filesep datasets{d,1}]);
-
+    data(1,:) = strrep(data(1,:),'microbiota_model_diet_','');
+    
+    if d==1
+        % remove net secretion fluxes that are zero
+        delArray=[];
+        cnt=1;
+        for i=2:size(data,1)
+            if abs(sum(cell2mat(data(i,2:end))))<0.000001 || all(cell2mat(data(i,2:end)) == data{i,2})
+                delArray(cnt)=i;
+                cnt=cnt+1;
+            end
+        end
+        data(delArray,:) = [];
+    end
+    
     % create the table
     statistics = {'Feature','Mean 5 days','SD 5 days','Mean 1 month','SD 1 month','Mean 6 months','SD 6 months','Mean 1 year','SD 1 year','p-value','after FDR'};
 
