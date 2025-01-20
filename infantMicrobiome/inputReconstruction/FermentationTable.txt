@@ -125,7 +125,7 @@ Eisenbergiella_massiliensis_AT11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 Eisenbergiella_sp_OF01_20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Enterobacter_sp_Bisph2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0						
 Enterobacter_sp_NFR05	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0						
-Enterocloster_aldenensis_AF19_9LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Enterocloster_aldenensis_AF19_9LB	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	PMID: 16825358					
 Enterococcus_canintestini_DSM_21207	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 3. New York: Springer, 2009, v2C, p655					
 Enterococcus_sp_5B3_DIV0040	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 3. New York: Springer, 2009, v2C, p655					
 Enterococcus_sp_6D12_DIV0197	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 3. New York: Springer, 2009, v2C, p655					
@@ -194,8 +194,8 @@ Oscillospiraceae_bacterium_VE202_24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
 Phytobacter_sp_SCO41	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0						
 Phytobacter_ursingii_CAV1151	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0						
 Pseudoflavonifractor_sp_An184	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
-Pseudomonas_yamanorum_LMG_27247	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 4. New York: Springer, 2010.					
-Raoultella_terrigena_NBRC_14941	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Pseudomonas_yamanorum_LMG_27247	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 2B. New York: Springer, 2010.					
+Raoultella_terrigena_NBRC_14941	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	Krieg NR. Bergey's manual of systematic bacteriology, 2nd ed., volume 2B. New York: Springer, 2010.					
 Romboutsia_sp_Marseille_P6047	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Romboutsia_timonensis_Marseille_P326	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
 Rothia_sp_HMSC061D12	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
@@ -287,4 +287,4 @@ Veillonella_sp_T11011_6	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
 Veillonella_sp_T14073_2	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
 Veillonella_sp_T34266_5	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
 Veillonella_tobetsuensis_ATCC_BAA_2400	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	PMID: 29458564					
-Xylanimonas_cellulosilytica_DSM_15894	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0						
+Xylanimonas_cellulosilytica_DSM_15894	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0					
