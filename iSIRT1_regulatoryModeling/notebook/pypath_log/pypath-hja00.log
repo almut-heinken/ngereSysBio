@@ -1,0 +1,63 @@
+[2025-02-19 14:12:16] Welcome!
+[2025-02-19 14:12:16] Logger started, logging into `C:\Users\Jordi\OneDrive - Universite de Lorraine\Documentos - Systems Biology NGERE\Jordi_PHD\Manuscript\SIRT1-ButyrateModel\notebook\pypath_log\pypath-hja00.log`.
+[2025-02-19 14:12:16] Session `hja00` started.
+[2025-02-19 14:12:16] [pypath] 
+	- session ID: `hja00`
+	- working directory: `C:\Users\Jordi\OneDrive - Universite de Lorraine\Documentos - Systems Biology NGERE\Jordi_PHD\Manuscript\SIRT1-ButyrateModel\notebook`
+	- logfile: `C:\Users\Jordi\OneDrive - Universite de Lorraine\Documentos - Systems Biology NGERE\Jordi_PHD\Manuscript\SIRT1-ButyrateModel\notebook\pypath_log\pypath-hja00.log`
+	- pypath version: 0.15.7
+[2025-02-19 14:12:17] [curl] Creating Curl object to retrieve data from `https://www.ensembl.org/info/about/species.html`
+[2025-02-19 14:12:17] [curl] Cache file path: `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html`
+[2025-02-19 14:12:17] [curl] Cache file found, no need for download.
+[2025-02-19 14:12:17] [curl] Opening plain text file `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html`.
+[2025-02-19 14:12:17] [curl] Contents of `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html` has been read and the file has been closed.
+[2025-02-19 14:12:17] [curl] Creating Curl object to retrieve data from `https://www.ensembl.org/info/about/species.html`
+[2025-02-19 14:12:17] [curl] Cache file path: `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html`
+[2025-02-19 14:12:17] [curl] Cache file found, no need for download.
+[2025-02-19 14:12:17] [curl] Opening plain text file `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html`.
+[2025-02-19 14:12:17] [curl] Contents of `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html` has been read and the file has been closed.
+[2025-02-19 14:12:17] [curl] Creating Curl object to retrieve data from `https://www.ensembl.org/info/about/species.html`
+[2025-02-19 14:12:17] [curl] Cache file path: `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html`
+[2025-02-19 14:12:17] [curl] Cache file found, no need for download.
+[2025-02-19 14:12:17] [curl] Opening plain text file `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html`.
+[2025-02-19 14:12:17] [curl] Contents of `C:\Users\Jordi\.pypath\cache\535b06d53a59e75bb693369bc5fdc556-species.html` has been read and the file has been closed.
+[2025-02-19 14:12:18] [network_resources] Could not find data model for resource `Negatome` in set `negative`.
+[2025-02-19 14:12:18] [network_resources] Could not find data model for resource `SignaLink2` in set `obsolate`.
+[2025-02-19 14:12:18] [network_resources] Could not find data model for resource `NCI-PID` in set `obsolate`.
+[2025-02-19 14:12:18] [network_resources] Could not find data model for resource `ORegAnno` in set `transcription_deprecated`.
+[2025-02-19 14:12:19] [curl] Creating Curl object to retrieve data from `https://www.ebi.ac.uk/unichem/legacy/ucquery/listSources`
+[2025-02-19 14:12:19] [curl] Cache file path: `C:\Users\Jordi\.pypath\cache\ec334dad78a2cd7ed88f6069c63aa672-listSources`
+[2025-02-19 14:12:19] [curl] Cache file found, no need for download.
+[2025-02-19 14:12:19] [curl] Loading data from cache previously downloaded from `www.ebi.ac.uk`
+[2025-02-19 14:12:19] [curl] Opening file `C:\Users\Jordi\.pypath\cache\ec334dad78a2cd7ed88f6069c63aa672-listSources`
+[2025-02-19 14:12:19] [curl] Extracting data from file type `plain`
+[2025-02-19 14:12:19] [curl] Opening plain text file `C:\Users\Jordi\.pypath\cache\ec334dad78a2cd7ed88f6069c63aa672-listSources`.
+[2025-02-19 14:12:19] [curl] Contents of `C:\Users\Jordi\.pypath\cache\ec334dad78a2cd7ed88f6069c63aa672-listSources` has been read and the file has been closed.
+[2025-02-19 14:12:19] [curl] File at `https://www.ebi.ac.uk/unichem/legacy/ucquery/listSources` successfully retrieved. Resulted file type `plain text, unicode string`. Local file at
+                      `C:\Users\Jordi\.pypath\cache\ec334dad78a2cd7ed88f6069c63aa672-listSources`.
+[2025-02-19 14:12:19] [curl] Creating Curl object to retrieve data from `https://rampdb.nih.gov/api/id-types`
+[2025-02-19 14:12:19] [curl] Cache file path: `C:\Users\Jordi\.pypath\cache\c058901753f61743bf55db935731cff1-id-types`
+[2025-02-19 14:12:19] [curl] Cache file found, no need for download.
+[2025-02-19 14:12:19] [curl] Opening plain text file `C:\Users\Jordi\.pypath\cache\c058901753f61743bf55db935731cff1-id-types`.
+[2025-02-19 14:12:19] [curl] Contents of `C:\Users\Jordi\.pypath\cache\c058901753f61743bf55db935731cff1-id-types` has been read and the file has been closed.
+[2025-02-19 14:12:20] [omnipath.init] Welcome to the OmniPath database manager app.
+[2025-02-19 14:12:20] [omnipath.init] You can customize the database building process by setting parameters in the `OP_DB_ARGS` global variable or by calling `init` again with keyword arguments or after setting values in
+                      the `pypath.share.settings` module.You can define your own databases following the examples in `pypath/omnipath/databases/builtins.json`. See more details in
+                      `pypath/omnipath/databases/db_template.json` and the code of method `pypath.omnipath.app.DatabaseManager.load_dataset`.
+[2025-02-19 14:12:20] [omnipath.dbmanager] Pickle directory: `C:\Users\Jordi\.pypath\pickles` (exists: yes).
+[2025-02-19 14:12:20] [omnipath.dbmanager] Tables directory: `omnipath_tables\20250219` (exists: no).
+[2025-02-19 14:12:20] [omnipath.dbmanager] Figures directory: `omnipath_figures\20250219` (exists: no).
+[2025-02-19 14:12:20] [omnipath.dbmanager] The OmniPath database manager has been initialized.
+[2025-02-19 14:12:20] [omnipath.dbmanager] Loading dataset `tf_target` from `C:\Users\Jordi\.pypath\pickles\tftarget.pickle`.
+[2025-02-19 14:12:20] [network] Creating network object.
+[2025-02-19 14:12:20] [network] Loading from pickle `C:\Users\Jordi\.pypath\pickles\tftarget.pickle`.
+[2025-02-19 14:12:42] [network] Loaded from pickle `C:\Users\Jordi\.pypath\pickles\tftarget.pickle`.
+[2025-02-19 14:12:42] [omnipath.dbmanager] Loaded dataset `tf_target` from `C:\Users\Jordi\.pypath\pickles\tftarget.pickle`.
+[2025-02-19 14:12:42] [network] Creating interactions data frame.
+[2025-02-19 14:13:29] [network] Interaction data frame ready. Memory usage: 159.0+ MB
+[2025-02-19 14:13:29] [network] Creating interactions data frame.
+[2025-02-19 14:14:15] [network] Interaction data frame ready. Memory usage: 6.5 MB
+[2025-02-19 14:14:15] [omnipath.dbmanager] Created network data frames for `tf_target`.
+[2025-02-19 14:14:15] [export] Export object created for network.
+[2025-02-19 14:14:15] [export] Creating data frame of type `by direction`.
+[2025-02-19 14:14:15] [export] Creating data frame from `core.network.Network` object.

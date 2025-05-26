@@ -1,0 +1,202 @@
+abbreviation	description	formula	subsystem	ecnumber	keggId	keggorthology	cog	seed	metanetx			Metabolites	
+SUCOAS1m	Succinate- Coenzyme A Ligase (GDP-Forming)	coa[m] + gtp[m] + succ[m] <=> gdp[m] + pi[m] + succoa[m] 	Citric acid cycle	6.2.1.4	R00432				MNXR104637			HC00900	
+SUCOASm	Succinate- Coenzyme A Ligase (ADP-Forming)	atp[m] + coa[m] + succ[m] <=> adp[m] + pi[m] + succoa[m] 	Citric acid cycle	6.2.1.5	R00405				MNXR104635			fol	
+EX_5mthf[e]	Exchange of 5-Methyltetrahydrofolate	5mthf[e] <=> 	Exchange/demand reaction									hcys_L	
+EX_aqcobal[e]	Exchange of Aquacob (III)Alamin 	aqcobal[e] <=> 	Exchange/demand reaction									adocbl	
+EX_chol[e]	Exchange of Choline	chol[e] <=> 	Exchange/demand reaction									aqcobal	
+EX_gthrd[e]	Exchange of Reduced Glutathione 	gthrd[e] <=> 	Exchange/demand reaction									chol	
+EX_adpcbl[e]	Exchange of Adenosylcobalamin	adocbl[e] <=> 	Exchange/demand reaction									gly	
+EX_ahcys[e]	Exchange of S-Adenosyl-L-Homocysteine	ahcys[e] <=> 	Exchange/demand reaction									cyst_L	
+EX_cyst_L[e]	Exchange of L-Cystathionine	cyst_L[e] <=> 	Exchange/demand reaction									ser_L	
+EX_dmgly[e]	"Exchange of N,N-Dimethylglycine"	dmgly[e] <=> 	Exchange/demand reaction									cys_L	
+EX_hcys_L[e]	Exchange of L-Homocysteine	hcys_L[e] <=> 	Exchange/demand reaction									glyb	
+EX_amet[e]	Exchange of S-Adenosyl-L-Methionine	amet[e] <=> 	Exchange/demand reaction									amet	
+EX_HC00900[e]	Exchange of Methylmalonate	HC00900[e] <=> 	Exchange/demand reaction									met_L	
+EX_glyb[e]	Exchange of Glycine Betaine 	glyb[e] <=> 	Exchange/demand reaction									gthrd	
+EX_met_L[e]	Exchange of L-Methionine 	met_L[e] <=> 	Exchange/demand reaction									ahcys	
+EX_ser_L[e]	Exchange of L-Serine	ser_L[e] <=> 	Exchange/demand reaction									5mthf	
+EX_gly[e]	Exchange of Glycine	gly[e] <=> 	Exchange/demand reaction									dmgly	
+EX_cys_L[e]	Exchange of L-Cysteine	cys_L[e] <=> 	Exchange/demand reaction										
+EX_fol[e]	Exchange of Folate	fol[e] <=> 	Exchange/demand reaction										
+FOLR2	Folate Reductase	fol[c] + nadph[c] -> dhf[c] + nadp[c] 	Folate metabolism	1.5.1.3	R02236				MNXR97400				
+FPGS2	Folylpolyglutamate Synthetase	5thf[c] + atp[c] + glu_L[c] -> 6thf[c] + adp[c] + h[c] + pi[c] 	Folate metabolism						MNXR99625				
+FPGS2m	"Folylpolyglutamate Synthetase, Mitochondrial"	5thf[m] + atp[m] + glu_L[m] -> 6thf[m] + adp[m] + h[m] + pi[m] 	Folate metabolism						MNXR99625				
+FPGS3	Folylpolyglutamate Synthetase	6thf[c] + atp[c] + glu_L[c] -> 7thf[c] + adp[c] + h[c] + pi[c] 	Folate metabolism						MNXR99626				
+FPGS3m	"Folylpolyglutamate Synthetase, Mitochondrial"	6thf[m] + atp[m] + glu_L[m] -> 7thf[m] + adp[m] + h[m] + pi[m] 	Folate metabolism						MNXR99626				
+FPGS4	Folylpolyglutamate Synthetase (Dhf)	atp[c] + dhf[c] + 4.0 glu_L[c] -> 5dhf[c] + adp[c] + h[c] + 3.0 h2o[c] + pi[c] 	Folate metabolism	6.3.2.17									
+FPGS4m	"Folylpolyglutamate Synthetase (Dhf), Mitochondrial"	atp[m] + dhf[m] + 4.0 glu_L[m] -> 5dhf[m] + adp[m] + h[m] + 3.0 h2o[m] + pi[m] 	Folate metabolism	6.3.2.17									
+FPGS5	Folylpolyglutamate Synthetase (Dhf)	5dhf[c] + atp[c] + glu_L[c] -> 6dhf[c] + adp[c] + h[c] + pi[c] 	Folate metabolism						MNXR99628				
+FPGS5m	"Folylpolyglutamate Synthetase (Dhf), Mitochondrial"	5dhf[m] + atp[m] + glu_L[m] -> 6dhf[m] + adp[m] + h[m] + pi[m] 	Folate metabolism						MNXR99628				
+FPGS6	Folylpolyglutamate Synthetase (Dhf)	6dhf[c] + atp[c] + glu_L[c] -> 7dhf[c] + adp[c] + h[c] + pi[c] 	Folate metabolism						MNXR99629				
+FPGS6m	"Folylpolyglutamate Synthetase (Dhf), Mitochondrial"	6dhf[m] + atp[m] + glu_L[m] -> 7dhf[m] + adp[m] + h[m] + pi[m] 	Folate metabolism						MNXR99629				
+FPGS7m	"Folylpolyglutamate Synthetase (10Fthf), Mitochondrial"	10fthf[m] + atp[m] + 4.0 glu_L[m] -> 10fthf5glu[m] + adp[m] + h[m] + 3.0 h2o[m] + pi[m] 	Folate metabolism	6.3.2.17									
+FPGS8	Folylpolyglutamate Synthetase (10Fthf)	10fthf5glu[c] + atp[c] + glu_L[c] -> 10fthf6glu[c] + adp[c] + h[c] + pi[c] 	Folate metabolism						MNXR99631				
+FPGS8m	"Folylpolyglutamate Synthetase (10Fthf), Mitochondrial"	10fthf5glu[m] + atp[m] + glu_L[m] -> 10fthf6glu[m] + adp[m] + h[m] + pi[m] 	Folate metabolism						MNXR99631				
+FPGS9	Folylpolyglutamate Synthetase (10Fthf)	10fthf6glu[c] + atp[c] + glu_L[c] -> 10fthf7glu[c] + adp[c] + h[c] + pi[c] 	Folate metabolism						MNXR99632				
+FPGS9m	"Folylpolyglutamate Synthetase (10Fthf), Mitochondrial"	10fthf6glu[m] + atp[m] + glu_L[m] -> 10fthf7glu[m] + adp[m] + h[m] + pi[m] 	Folate metabolism						MNXR99632				
+FPGSm	"Folylpolyglutamate Synthetase, Mitochondrial"	atp[m] + 4.0 glu_L[m] + thf[m] -> 5thf[m] + adp[m] + h[m] + 3.0 h2o[m] + pi[m] 	Folate metabolism	6.3.2.17									
+FTHFDH	Formyltetrahydrofolate Dehydrogenase	10fthf[c] + h2o[c] + nadp[c] -> co2[c] + h[c] + nadph[c] + thf[c] 	Folate metabolism	1.5.1.6	R00941			rxn00688	MNXR99670				
+FTHFLm	"Formate-Tetrahydrofolate Ligase, Mitochondrial"	atp[m] + for[m] + thf[m] -> 10fthf[m] + adp[m] + pi[m] 	Folate metabolism	6.3.4.3									
+GGH_10FTHF5GLUe	"Gamma-Glutamyl Hydrolase (10Fthf5Glu), Extracellular"	10fthf5glu[e] + 4.0 h2o[e] -> 10fthf[e] + 4.0 glu_L[e] 	Folate metabolism						MNXR100117				
+GGH_10FTHF5GLUl	"Gamma-Glutamyl Hydrolase (10Fthf5Glu), Lysosomal"	10fthf5glu[l] + 4.0 h2o[l] -> 10fthf[l] + 4.0 glu_L[l] 	Folate metabolism						MNXR100117				
+GGH_10FTHF6GLUe	"Gamma-Glutamyl Hydrolase (10Fthf6Glu), Extracellular"	10fthf6glu[e] + h2o[e] -> 10fthf5glu[e] + glu_L[e] 	Folate metabolism						MNXR100118				
+GGH_10FTHF6GLUl	"Gamma-Glutamyl Hydrolase (10Fthf6Glu), Lysosomal"	10fthf6glu[l] + h2o[l] -> 10fthf5glu[l] + glu_L[l] 	Folate metabolism						MNXR100118				
+GGH_10FTHF7GLUe	"Gamma-Glutamyl Hydrolase (10Fthf7Glu), Extracellular"	10fthf7glu[e] + h2o[e] -> 10fthf6glu[e] + glu_L[e] 	Folate metabolism						MNXR100119				
+GGH_10FTHF7GLUl	"Gamma-Glutamyl Hydrolase (10Fthf7Glu), Lysosomal"	10fthf7glu[l] + h2o[l] -> 10fthf6glu[l] + glu_L[l] 	Folate metabolism						MNXR100119				
+GGH_5DHFe	"Gamma-Glutamyl Hydrolase (5Dhf), Extracellular"	5dhf[e] + 4.0 h2o[e] -> dhf[e] + 4.0 glu_L[e] 	Folate metabolism						MNXR100120				
+GGH_5DHFl	"Gamma-Glutamyl Hydrolase (5Dhf), Lysosomal"	5dhf[l] + 4.0 h2o[l] -> dhf[l] + 4.0 glu_L[l] 	Folate metabolism						MNXR100120				
+GGH_5THFe	"Gamma-Glutamyl Hydrolase (5Thf), Extracellular"	5thf[e] + 4.0 h2o[e] -> 4.0 glu_L[e] + thf[e] 	Folate metabolism						MNXR100121				
+GGH_5THFl	"Gamma-Glutamyl Hydrolase (5Thf), Lysosomal"	5thf[l] + 4.0 h2o[l] -> 4.0 glu_L[l] + thf[l] 	Folate metabolism						MNXR100121				
+GGH_6DHFe	"Gamma-Glutamyl Hydrolase (6Dhf), Extracellular"	6dhf[e] + h2o[e] -> 5dhf[e] + glu_L[e] 	Folate metabolism						MNXR100122				
+GGH_6DHFl	"Gamma-Glutamyl Hydrolase (6Dhf), Lysosomal"	6dhf[l] + h2o[l] -> 5dhf[l] + glu_L[l] 	Folate metabolism						MNXR100122				
+GGH_6THFe	"Gamma-Glutamyl Hydrolase (6Thf), Extracellular"	6thf[e] + h2o[e] -> 5thf[e] + glu_L[e] 	Folate metabolism						MNXR100123				
+GGH_6THFl	"Gamma-Glutamyl Hydrolase (6Thf), Lysosomal"	6thf[l] + h2o[l] -> 5thf[l] + glu_L[l] 	Folate metabolism						MNXR100123				
+GGH_7DHFe	"Gamma-Glutamyl Hydrolase (7Dhf), Extracellular"	7dhf[e] + h2o[e] -> 6dhf[e] + glu_L[e] 	Folate metabolism						MNXR100124				
+GGH_7DHFl	"Gamma-Glutamyl Hydrolase (7Dhf), Lysosomal"	7dhf[l] + h2o[l] -> 6dhf[l] + glu_L[l] 	Folate metabolism						MNXR100124				
+GGH_7THFe	"Gamma-Glutamyl Hydrolase (7Thf), Extracellular"	7thf[e] + h2o[e] -> 6thf[e] + glu_L[e] 	Folate metabolism						MNXR100125				
+GGH_7THFl	"Gamma-Glutamyl Hydrolase (7Thf), Lysosomal"	7thf[l] + h2o[l] -> 6thf[l] + glu_L[l] 	Folate metabolism						MNXR100125				
+MTHFCm	"Methenyltetrahydrifikate Cyclohydrolase, Mitochondrial"	h2o[m] + methf[m] <=> 10fthf[m] + h[m] 	Folate metabolism	3.5.4.9	R01655				MNXR101748				
+MTHFD2m	"Methylenetetrahydrofolate Dehydrogenase (NAD), Mitochondrial"	mlthf[m] + nad[m] <=> methf[m] + nadh[m] 	Folate metabolism	1.5.1.15	R01218				MNXR101750				
+MTHFDm	"Methylenetetrahydrofolate Dehydrogenase (NADP), Mitochondrial"	mlthf[m] + nadp[m] <=> methf[m] + nadph[m] 	Folate metabolism	1.5.1.5	R01220				MNXR101749				
+r0224	"5, 6, 7, 8-Tetrahydrofolate:NAD+ Oxidoreductase"	dhf[c] + h[c] + nadh[c] -> nad[c] + thf[c] 	Folate metabolism	1.5.1.3									
+r0226	"5, 6, 7, 8-Tetrahydrofolate:NADP+ Oxidoreductase"	dhf[m] + h[m] + nadph[m] -> nadp[m] + thf[m] 	Folate metabolism	1.5.1.3									
+r0512	Dihydrofolate:NAD+ Oxidoreductase	dhf[c] + nad[c] <=> fol[c] + nadh[c] 	Folate metabolism	1.5.1.3	R02235				MNXR97399				
+r0514	Dihydrofolate:NADP+ Oxidoreductase	fol[m] + nadph[m] -> dhf[m] + nadp[m] 	Folate metabolism	1.5.1.3	R02236				MNXR97400				
+r0522	S-Aminomethyldihydrolipoylprotein: (6S)-Tetrahydrofolate Aminomethyltransferase (Ammonia-Forming)	h2o[m] + methf[m] -> 5fthf[m] + h[m] 	Folate metabolism	2.1.2.10									
+r0523	5-Formyltetrahydrofolate Cyclo-Ligase (ADP-Forming)	5fthf[m] + atp[m] -> adp[m] + methf[m] + pi[m] 	Folate metabolism	6.3.3.2									
+r1382	Folylpolyglutamyl Synthetase	6.0 atp[c] + 6.0 glu_L[c] + thf[c] -> 7thf[c] + 6.0 adp[c] + 6.0 h[c] + 6.0 pi[c] 	Folate metabolism	6.3.2.17									
+r1383	Gamma-Glutamyl Hydrolase	7thf[c] + 6.0 h2o[c] -> 6.0 glu_L[c] + thf[c] 	Folate metabolism	3.4.19.9									
+MTHFR3	"5, 10-Methylenetetrahydrofolatereductase (NADPH)"	2.0 h[c] + mlthf[c] + nadph[c] -> 5mthf[c] + nadp[c] 	Folate metabolism	1.5.1.20	R01224				MNXR101752				
+DHFR	Dihydrofolate Reductase	dhf[c] + h[c] + nadph[c] <=> nadp[c] + thf[c] 	Folate metabolism	1.5.1.3	R00939	K13938	COG0262 COG1028	rxn00686	MNXR97401				
+FPGS7	Folylpolyglutamate Synthetase (10Fthf)	10fthf[c] + atp[c] + 4.0 glu_L[c] -> 10fthf5glu[c] + adp[c] + h[c] + 3.0 h2o[c] + pi[c] 	Folate metabolism	6.3.2.17		K01930	COG0285	rxn01210	MNXR81305				
+FTHFCL	5-Formethyltetrahydrofolate Cyclo-Ligase	5fthf[c] + atp[c] -> adp[c] + methf[c] + pi[c] 	Folate metabolism	6.3.3.2	R02301	K01934	COG0212	rxn01653	MNXR99668				
+MTHFC	Methenyltetrahydrofolate Cyclohydrolase	h2o[c] + methf[c] <=> 10fthf[c] + h[c] 	Folate metabolism	3.5.4.9	R01655	K01491 K13403	COG0190	rxn01211	MNXR101748				
+MTHFD	Methylenetetrahydrofolate Dehydrogenase (NADP)	mlthf[c] + nadp[c] <=> methf[c] + nadph[c] 	Folate metabolism	1.5.1.5	R01220	K01491 K00288	COG0190	rxn00907	MNXR101749				
+FPGS	Folylpolyglutamate Synthetase	atp[c] + 4.0 glu_L[c] + thf[c] -> 5thf[c] + adp[c] + h[c] + 3.0 h2o[c] + pi[c] 	Folate metabolism	6.3.2.17		K01930	COG0285						
+r0792	5-Methyltetrahydrofolate:NAD+ Oxidoreductase / Ec:1.5.1.20	5mthf[c] + nad[c] <=> 2.0 h[c] + mlthf[c] + nadh[c] 	Folate metabolism	1.5.1.20		K00297	COG0685	rxn04954	MNXR3644				
+FTHFL	Formate-Tetrahydrofolate Ligase	atp[c] + for[c] + thf[c] -> 10fthf[c] + adp[c] + pi[c] 	Folate metabolism	6.3.2.17		K00288 K01938 K13402	COG2759	rxn00690	MNXR2319				
+MTHFD2	Methylenetetrahydrofolate Dehydrogenase (NAD)	mlthf[c] + nad[c] <=> methf[c] + nadh[c] 	Folate metabolism	1.5.1.5		K00288	COG0190						
+HMR_7145	"GTP 8, 9-Lyase (Cyclic Pyranopterin Monophosphate-Forming)"	gtp[c] + h2o[c] -> M01618[c] + ppi[c] 	Folate metabolism	EC:4.1.99.18	R09394								
+HMR_7146	Thiocarboxylated Molybdopterin Synthase:Cyclic Pyranopterin Phosphate Sulfurtransferase	M01618[c] + 2.0 paps[c] -> M02488[c] + 2.0 pap[c] 	Folate metabolism		R09395								
+HMR_7147	ATP:Molybdopterin Adenylyltransferase	atp[c] + h[c] + M02488[c] -> M01281[c] + ppi[c] 	Folate metabolism	EC:2.7.7.75	R09726								
+HMR_9726	5-Formyltetrahydrofolate:L-Glutamate N-Formiminotransferase	5fthf[c] + glu_L[c] -> forglu[c] + thf[c] 	Folate metabolism	EC:2.1.2.5	R03189								
+GTHS	Glutathione Synthetase	atp[c] + glucys[c] + gly[c] -> adp[c] + gthrd[c] + h[c] + pi[c] 	Glutathione metabolism	6.3.2.3	R00497	K01920	COG0189	rxn00351	MNXR100450				
+ALASm	5-Aminolevulinate Synthase	gly[m] + h[m] + succoa[m] -> 5aop[m] + co2[m] + coa[m] 	"Glycine, serine, alanine, and threonine metabolism"	2.3.1.37	R00830				MNXR95695				
+BETALDHxm	"Betaine-Aldehyde Dehydrogenase, Mitochondrial"	betald[m] + h2o[m] + nad[m] -> glyb[m] + 2.0 h[m] + nadh[m] 	"Glycine, serine, alanine, and threonine metabolism"	1.2.1.8	R02565				MNXR96237				
+BHMT	Betaine-Homocysteine S-Methyltransferase	glyb[c] + hcys_L[c] -> dmgly[c] + met_L[c] 	"Glycine, serine, alanine, and threonine metabolism"	2.1.1.5	R02821			rxn02028	MNXR96250				
+CHOLD2m	"Choline Dehydrogenase (FAD Acceptor), Mitochondrial"	chol[m] + fad[m] -> betald[m] + fadh2[m] 	"Glycine, serine, alanine, and threonine metabolism"	1.1.99.1					MNXR96698				
+DMGDHm	"Dimethylglycine Dehydrogenase, Mitochondrial"	dmgly[m] + fad[m] + h2o[m] -> fadh2[m] + fald[m] + sarcs[m] 	"Glycine, serine, alanine, and threonine metabolism"						MNXR97518				
+GCC2am	"Glycine-Cleavage Complex (Lipoamide), Mitochondrial"	gly[m] + h[m] + lpam[m] <=> alpam[m] + co2[m] 	"Glycine, serine, alanine, and threonine metabolism"	1.4.4.2					MNXR100065				
+GCC2bim	"Glycine-Cleavage System (Lipoamide) Irreversible, Mitochondrial"	alpam[m] + thf[m] -> dhlam[m] + mlthf[m] + nh4[m] 	"Glycine, serine, alanine, and threonine metabolism"	2.1.2.10					MNXR100064				
+GCC2cm	"Glycine-Cleavage Complex (Lipoamide), Mitochondrial"	dhlam[m] + nad[m] <=> h[m] + lpam[m] + nadh[m] 	"Glycine, serine, alanine, and threonine metabolism"	"1.8.1.-, 1.8.1.4"	R01698				MNXR100066				
+GCCam	"Glycine-Cleavage Complex (Lipoylprotein), Mitochondrial"	gly[m] + h[m] + lpro[m] <=> alpro[m] + co2[m] 	"Glycine, serine, alanine, and threonine metabolism"	1.4.4.2	R03425				MNXR100067				
+GCCbim	"Glycine-Cleavage Complex (Lipoylprotein) Irreversible, Mitochondrial"	alpro[m] + thf[m] -> dhlpro[m] + mlthf[m] + nh4[m] 	"Glycine, serine, alanine, and threonine metabolism"	2.1.2.10	R04125				MNXR100068				
+GCCcm	"Glycine-Cleavage Complex (Lipoylprotein), Mitochondrial"	dhlpro[m] + nad[m] <=> h[m] + lpro[m] + nadh[m] 	"Glycine, serine, alanine, and threonine metabolism"	1.8.1.4	R03815				MNXR100069				
+GHMT2rm	"Glycine Hydroxymethyltransferase, Reversible, Mitochondrial"	ser_L[m] + thf[m] <=> gly[m] + h2o[m] + mlthf[m] 	"Glycine, serine, alanine, and threonine metabolism"	2.1.2.1	R00945				MNXR100142				
+GLYATm	Glycine C-Acetyltransferase	accoa[m] + gly[m] <=> 2aobut[m] + coa[m] 	"Glycine, serine, alanine, and threonine metabolism"	"2.3.1.29, 2.3.1.37"	R00371				MNXR100313				
+GLYOp	"Glycine Oxidase, Perixosomal"	gly[x] + h2o[x] + o2[x] -> glx[x] + h2o2[x] + nh4[x] 	"Glycine, serine, alanine, and threonine metabolism"	"1.4.3.19, 1.4.3.3"	R00366				MNXR100352				
+GNMT	Glycine N-Methyltransferase	amet[c] + gly[c] -> ahcys[c] + h[c] + sarcs[c] 	"Glycine, serine, alanine, and threonine metabolism"	"2.1.1.156, 2.1.1.162, 2.1.1.20"	R00367			rxn00270	MNXR100391				
+SARCOXp	"Sarcosine Oxidase, Peroxisomal"	h2o[x] + o2[x] + sarcs[x] -> fald[x] + gly[x] + h2o2[x] 	"Glycine, serine, alanine, and threonine metabolism"	1.5.3.1	R00610				MNXR104272				
+SERHL	L-Serine Hydro-Lyase	ser_L[c] -> 2amac[c] + h2o[c] 	"Glycine, serine, alanine, and threonine metabolism"	4.3.1.17	R00590				MNXR104344				
+SPTix	"Serine-Pyruvate Aminotransferase (Irreversible), Peroxisomal"	pyr[x] + ser_L[x] -> ala_L[x] + hpyr[x] 	"Glycine, serine, alanine, and threonine metabolism"	2.6.1.51	R00585				MNXR104504				
+GLYACm	Acetylation of Glycine	accoa[m] + gly[m] -> acgly[m] + coa[m] + h[m] 	"Glycine, serine, alanine, and threonine metabolism"										
+THRACm	Acetylation of Threonine	accoa[m] + thr_L[m] -> acthr_L[m] + coa[m] + h[m] 	"Glycine, serine, alanine, and threonine metabolism"										
+ACHOMm	Acetylation of Homoserine	accoa[m] + hom_L[m] -> achom_L[m] + coa[m] + h[m] 	"Glycine, serine, alanine, and threonine metabolism"										
+GHMT2r	"Glycine Hydroxymethyltransferase, Reversible"	ser_L[c] + thf[c] <=> gly[c] + h2o[c] + mlthf[c] 	"Glycine, serine, alanine, and threonine metabolism"	2.1.2.1	R00945	K00600	COG0112	rxn00692	MNXR100142				
+THRS	Threonine Synthase	h2o[c] + phom[c] -> pi[c] + thr_L[c] 	"Glycine, serine, alanine, and threonine metabolism"	4.2.3.1	R01466	K01733	COG0498	rxn01069	MNXR104846				
+THRD_L	L-Threonine Deaminase	thr_L[c] -> 2obut[c] + nh4[c] 	"Glycine, serine, alanine, and threonine metabolism"	4.3.1.19	R00996	K01754	COG1171	rxn00737	MNXR104714				
+OBDHc	"2-Oxobutanoate Dehydrogenase, Cytosolic"	2obut[c] + coa[c] + nad[c] -> co2[c] + nadh[c] + ppcoa[c] 	"Glycine, serine, alanine, and threonine metabolism"			K00169 K00170 K00171 K00172	COG0674 COG1013 COG1144 COG1014		MNXR102133				
+HMR_4696	HMR_4696	chol[c] + nad[c] -> betald[c] + h[c] + nadh[c] 	"Glycine, serine, alanine, and threonine metabolism"	EC:1.1.99.1	R08557								
+HMR_4700	"N, N-Dimethylglycine:Electron-Transfer Flavoprotein Oxidoreductase (Demethylating)"	fald[c] + h[c] + nadph[c] + sarcs[c] <=> dmgly[c] + h2o[c] + nadp[c] 	"Glycine, serine, alanine, and threonine metabolism"	EC:1.5.8.4	R01565								
+HMR_9718	ATP:L-Homoserine O-Phosphotransferase	atp[c] + hom_L[c] -> adp[c] + h[c] + phom[c] 	"Glycine, serine, alanine, and threonine metabolism"	EC:2.7.1.39	R01771								
+3SALATAi	3-Sulfino-Alanine Transaminase (Irreversible)	3sala[c] + akg[c] + h[c] -> 3snpyr[c] + glu_L[c] 	Methionine and cysteine metabolism	2.6.1.1					MNXR94980				
+3SALATAim	"3-Sulfino-Alanine Transaminase (Irreversible), Mitochondrial"	3sala[m] + akg[m] + h[m] -> 3snpyr[m] + glu_L[m] 	Methionine and cysteine metabolism	2.6.1.1					MNXR94980				
+3SPYRSP	3-Sulfinopyruvate Hydrolase (Spotaneous Reaction)	3snpyr[c] + h2o[c] -> h[c] + pyr[c] + so3[c] 	Methionine and cysteine metabolism	3.13.1.-					MNXR94981				
+3SPYRSPm	"3-Sulfinopyruvate Hydrolase (Spotaneous Reaction), Mitochondrial"	3snpyr[m] + h2o[m] -> h[m] + pyr[m] + so3[m] 	Methionine and cysteine metabolism	3.13.1.-					MNXR94981				
+CYSGLTH	Glutathione:Cystine Oxidoreductase	2.0 gthrd[c] + Lcystin[c] <=> 2.0 cys_L[c] + gthox[c] 	Methionine and cysteine metabolism	1.8.4.4	R01113				MNXR96999				
+CYSLYSL	L-Cystine Lysteine-Lyase (Deaminating)	h2o[c] + Lcystin[c] -> nh4[c] + pyr[c] + thcys[c] 	Methionine and cysteine metabolism	4.4.1.1									
+CYSTA	Cysteine Transaminase	akg[c] + cys_L[c] <=> glu_L[c] + mercppyr[c] 	Methionine and cysteine metabolism	"2.6.1.1, 2.6.1.3"	R00896				MNXR96990				
+CYSTAm	"Cysteine Transaminase, Mitochondrial"	akg[m] + cys_L[m] <=> glu_L[m] + mercppyr[m] 	Methionine and cysteine metabolism	2.6.1.3									
+DNAMTn	"DNA (Cytosine-5-)-Methyltransferase, Nucleus"	amet[n] + dna[n] -> ahcys[n] + dna5mtc[n] + h[n] 	Methionine and cysteine metabolism	2.1.1.37									
+METAT	Methionine Adenosyltransferase	atp[c] + h2o[c] + met_L[c] -> amet[c] + pi[c] + ppi[c] 	Methionine and cysteine metabolism	2.5.1.6	R00177				MNXR101407				
+METS	Methionine Synthase	5mthf[c] + hcys_L[c] -> h[c] + met_L[c] + thf[c] 	Methionine and cysteine metabolism	2.1.1.13	R00946				MNXR101481				
+SLDt	L-Sulfolactate Transport (Cytosol to Extracellular)	sl_L[c] -> sl_L[e] 	Methionine and cysteine metabolism						MNXR104441				
+SLDx	L-Sulfolactate Dehydrogenase (NAD+)	nad[c] + sl_L[c] <=> 3spyr[c] + h[c] + nadh[c] 	Methionine and cysteine metabolism	1.1.1.310	R05693				MNXR104442				
+SLDxm	"L-Sulfolactate Dehydrogenase (NAD+), Mitochondrial"	nad[m] + sl_L[m] <=> 3spyr[m] + h[m] + nadh[m] 	Methionine and cysteine metabolism	1.1.1.37									
+SULFOX	Sulfite Oxidase	2.0 ficytC[m] + h2o[c] + so3[c] -> 2.0 focytC[m] + 2.0 h[c] + so4[c] 	Methionine and cysteine metabolism						MNXR104648				
+r0142	Sulfite:Oxygen Oxidoreductase	h2o[m] + o2[m] + so3[m] -> h2o2[m] + so4[m] 	Methionine and cysteine metabolism	1.8.3.1	R00533				MNXR104649				
+r0193	L-Cysteine L-Homocysteine-Lyase (Deaminating)	cys_L[c] + h2o[c] <=> h[c] + HC00250[c] + nh4[c] + pyr[c] 	Methionine and cysteine metabolism						MNXR105313				
+r0210	L-Serine Hydro-Lyase (Adding Homocysteine)	h[c] + HC00250[c] + ser_L[c] -> cys_L[c] + h2o[c] 	Methionine and cysteine metabolism						MNXR105314				
+RE3009C	RE3009C	paps[c] + trdrd[c] -> 2.0 h[c] + pap[c] + so3[c] + trdox[c] 	Methionine and cysteine metabolism			K00390	COG0175	rxn05239	MNXR83571				
+HYPTROXe	"Hypotaurine Oxidase, Extracellular"	2.0 hyptaur[e] + o2[e] -> 2.0 taur[e] 	Methionine and cysteine metabolism						MNXR100764				
+SFCYSc	Formation of Sulfocysteine	cys_L[c] + h[c] + so3[c] <=> slfcys[c] 	Methionine and cysteine metabolism						MNXR104355				
+METTRANSc	Methionine Transaminase	met_L[c] + pyr[c] <=> 4mtob[c] + ala_L[c] 	Methionine and cysteine metabolism										
+METDECARc	Methionine Decarboxylase	4mtob[c] + h[c] -> 3mtp[c] + co2[c] 	Methionine and cysteine metabolism										
+LHCYSTIN	Formation of Homocystine	2.0 gthrd[c] + Lhcystin[c] <=> gthox[c] + 2.0 hcys_L[c] 	Methionine and cysteine metabolism										
+CYSTGL	Cystathionine G-Lyase	cyst_L[c] + h2o[c] -> 2obut[c] + cys_L[c] + nh4[c] 	Methionine and cysteine metabolism	4.4.1.1	R01001	K01758 K17217	COG0626	rxn00742	MNXR97012				
+CYSTS	Cystathionine Beta-Synthase	hcys_L[c] + ser_L[c] -> cyst_L[c] + h2o[c]	Methionine and cysteine metabolism	4.2.1.22	R01290	K01697	COG0031 COG0517	rxn00953	MNXR97019				
+r0060	L-Serine Ammonia-Lyase Ec:4.3.1.17	ser_L[c] -> nh4[c] + pyr[c] 	Methionine and cysteine metabolism	4.3.1.17		K01752 K01754 K17989	COG1171 COG1760	rxn00165	MNXR84190				
+AHC	Adenosylhomocysteinase	ahcys[c] + h2o[c] <=> adn[c] + hcys_L[c] 	Methionine and cysteine metabolism	3.3.1.1		K01251	COG0499	rxn00141	MNXR578				
+HMR_3996	L-Cysteine:NAD+ Oxidoreductase;	h[c] + Lcystin[c] + nadh[c] <=> 2.0 cys_L[c] + nad[c] 	Methionine and cysteine metabolism	EC:1.8.1.6	R00892								
+HMR_4072	S-Adenosyl-L-Methionine:DNA (Cytosine-5-)-Methyltransferase	amet[c] + dna[c] -> ahcys[c] + dna5mtc[c] + h[c] 	Methionine and cysteine metabolism	EC:2.1.1.37	R00380								
+HMR_4701	S-Adenosyl-L-Methionine:Sarcosine N-Methyltransferase	ahcys[c] + dmgly[c] + h[c] -> amet[c] + sarcs[c] 	Methionine and cysteine metabolism	EC:1.5.8.4	R07243								
+HMR_6515	3-Mercaptopyruvate:Cyanide Sulfurtransferase	mercppyr[c] + so3[c] -> pyr[c] + tsul[c] 	Methionine and cysteine metabolism	EC:2.8.1.2	R03105								
+5MTHFt	5-Methyltetrahydrofolate Transport via Receptor Binding And Protolysis	5mthf[e] <=> 5mthf[c] 	"Transport, extracellular"						MNXR95088				
+5MTHFt2	5-Methyltetrahydrofolate Transport via Anion Exchange	5mthf[e] + h2o[c] <=> 5mthf[c] + h2o[e] 	"Transport, extracellular"						MNXR95089				
+AQCOBALt	Aquacob-(III)-Alamin Uptake	aqcobal[e] -> aqcobal[c] 	"Transport, extracellular"						MNXR95905				
+CHOLt4	"Choline, Sodium Symport"	chol[e] + na1[e] <=> chol[c] + na1[c] 	"Transport, extracellular"						MNXR96707				
+CHOLtu	Choline Uniport	chol[e] <=> chol[c] 	"Transport, extracellular"						MNXR96693				
+CYSGLYexR	L-Cysteine/Glycine Reversible Exchanger	cys_L[c] + gly[e] <=> cys_L[e] + gly[c] 	"Transport, extracellular"										
+CYSSERNaEx	L-Serine/L-Cysteine Na-Dependent Exchange (Cys-L In)	cys_L[e] + na1[e] + ser_L[c] -> cys_L[c] + na1[c] + ser_L[e] 	"Transport, extracellular"						MNXR97009				
+CYSt4	"Transport of L-Cysteine   via Sodium Symport, Reversible"	cys_L[e] + na1[e] -> cys_L[c] + na1[c] 	"Transport, extracellular"						MNXR97028				
+CYStec	Transport of L-Cysteine  via Diffusion 	cys_L[e] <=> cys_L[c] 	"Transport, extracellular"						MNXR97029				
+FOLt2	Folate Transport via Anion Antiport	fol[e] + h2o[c] <=> fol[c] + h2o[e] 	"Transport, extracellular"						MNXR99613				
+GLYBt4_2_r	Betaine Transport (Sodium Symport) (2:1)	glyb[e] + 2.0 na1[e] <=> glyb[c] + 2.0 na1[c] 	"Transport, extracellular"										
+GLYt4	Transport of Glycine  via Sodium Symport	gly[e] + na1[e] -> gly[c] + na1[c] 	"Transport, extracellular"						MNXR100351				
+GLYt7_211_r	"Transport of Glycine   via Sodium And Chloride Symport (2:1:1), Reversible"	cl[e] + gly[e] + 2.0 na1[e] <=> cl[c] + gly[c] + 2.0 na1[c] 	"Transport, extracellular"										
+GLYVESSEC	Secretion of Glycine  via Secretory Vesicle (ATP Driven)	atp[c] + gly[c] + h2o[c] -> adp[c] + gly[e] + h[c] + pi[c] 	"Transport, extracellular"										
+METt4	L-Methionine Transport in via Sodium Symport	met_L[e] + na1[e] -> met_L[c] + na1[c] 	"Transport, extracellular"						MNXR101492				
+METtec	L-Methionine Transport via Diffusion (Extracellular to Cytosol)	met_L[e] <=> met_L[c] 	"Transport, extracellular"						MNXR101493				
+SERt4	L-Serine via Sodium Symport	na1[e] + ser_L[e] -> na1[c] + ser_L[c] 	"Transport, extracellular"						MNXR104346				
+SERtN1	"Serine Transport (Na, H Coupled)"	h[c] + 2.0 na1[e] + ser_L[e] <=> h[e] + 2.0 na1[c] + ser_L[c] 	"Transport, extracellular"						MNXR104353				
+THRGLYexR	L-Threonine/Glycine Reversible Antiport	gly[c] + thr_L[e] <=> gly[e] + thr_L[c] 	"Transport, extracellular"						MNXR104841				
+r1493	Utilized Transport	gthrd[c] -> gthrd[e] 	"Transport, extracellular"	1.8.1.9									
+r1530	ATP-Binding Cassette (ABC) Tcdb:3.A.1.208.15	atp[c] + gthrd[c] + h2o[c] -> adp[c] + gthrd[e] + h[c] + pi[c] 	"Transport, extracellular"						MNXR100447				
+CBLTDe	Release of B12 by SIMPle Diffusion	adocbl[c] -> adocbl[e] 	"Transport, extracellular"										
+CBLtle	Transport of Adenosylcobalamin into the Intestine	adocbl[e] -> adocbl[c] 	"Transport, extracellular"										
+CYSATB0tc	Transport of L-Cysteine by Atb0 Transporter	cl[e] + cys_L[e] + 2.0 na1[e] -> cl[c] + cys_L[c] + 2.0 na1[c] 	"Transport, extracellular"						MNXR96991				
+FOLTle	Transport of Folate	fol[e] + h[e] -> fol[c] + h[c] 	"Transport, extracellular"										
+MTHFTe	"Transport of Thf, Extracellular "	5mthf[c] -> 5mthf[e] 	"Transport, extracellular"										
+SERATB0tc	Transport of L-Serine by Atb0 	cl[e] + 2.0 na1[e] + ser_L[e] -> cl[c] + 2.0 na1[c] + ser_L[c] 	"Transport, extracellular"						MNXR104333				
+5MTHFt2le	5-Methyltetrahydrofolate Transport via Anion Antiport	5mthf[e] + oh1[c] <=> 5mthf[c] + oh1[e] 	"Transport, extracellular"										
+FOLt2le	Folate Transport via Anion Antiport	fol[e] + oh1[c] <=> fol[c] + oh1[e] 	"Transport, extracellular"										
+AHCYSte	Transport of S-Adenosyl-L-Homocysteine	ahcys[e] <=> ahcys[c] 	"Transport, extracellular"						MNXR95626				
+CYST_Ltr	Transport of Cystine	cyst_L[e] <=> cyst_L[c] 	"Transport, extracellular"										
+DMGLYtr	Transport of Dimethylglycine	dmgly[e] <=> dmgly[c] 	"Transport, extracellular"										
+BETBGTtc	Betaine Transport by Bgt	cl[e] + glyb[e] + na1[e] <=> cl[c] + glyb[c] + na1[c] 	"Transport, extracellular"										
+FOLABCCte	Folate Transport by ABCa11	atp[c] + fol[c] + h2o[c] -> adp[c] + fol[e] + h[c] + pi[c] 	"Transport, extracellular"										
+FOLOAT1tc	Folate Transport by Oat1	akg[c] + fol[e] + na1[e] <=> akg[e] + fol[c] + na1[c] 	"Transport, extracellular"										
+FOLOAT2tc	Folate Transport by Oats	fol[e] + so4[c] <=> fol[c] + so4[e] 	"Transport, extracellular"										
+FOLOATPtc	Folate Transport by OATP	fol[e] + hco3[c] <=> fol[c] + hco3[e] 	"Transport, extracellular"										
+METB0AT3tc	Methionine Transport by B0At3	cl[e] + met_L[e] + na1[e] -> cl[c] + met_L[c] + na1[c] 	"Transport, extracellular"										
+SERB0AT3tc	Serine Transport by B0At3	cl[e] + na1[e] + ser_L[e] -> cl[c] + na1[c] + ser_L[c] 	"Transport, extracellular"										
+r0963	Folate Transport by Folate Receptors	fol[e] -> fol[c] 	"Transport, extracellular"						MNXR105408				
+AMETt	"Transport of S-Adenosyl-L-Methionine, Paracellular Transport"	amet[c] <=> amet[e] 	"Transport, extracellular"										
+HC00900t1	"Transport of Methylmalonate, Antiport with Sulphite"	HC00900[c] + so3[e] <=> HC00900[e] + so3[c] 	"Transport, extracellular"										
+HC00900t2	"Transport of Methylmalonate, Antiport with Sulphate"	HC00900[c] + so4[e] <=> HC00900[e] + so4[c] 	"Transport, extracellular"										
+HC00900t3	"Transport of Methylmalonate, Antiport with Thio-Sulphate"	HC00900[c] + tsul[e] <=> HC00900[e] + tsul[c] 	"Transport, extracellular"										
+HC00900t4	"Transport of Methylmalonate, Antiport with Phsophate"	HC00900[c] + pi[e] <=> HC00900[e] + pi[c] 	"Transport, extracellular"										
+HCYSte	"Homocysteine Transport, Extracellular"	hcys_L[e] <=> hcys_L[c] 	"Transport, extracellular"						MNXR100580				
+HMR_9603	HMR_9603	2.0 cl[e] + glyb[e] + 3.0 na1[e] -> 2.0 cl[c] + glyb[c] + 3.0 na1[c] 	"Transport, extracellular"	EC:1.14.18.1									
+HMR_9620	HMR_9620	chol[e] + cl[e] + na1[e] -> chol[c] + cl[c] + na1[c] 	"Transport, extracellular"	EC:1.14.-.-									
+HMR_3921	HMR_3921	cyst_L[c] <=> cyst_L[m] 	"Transport, mitochondrial"	EC:3.1.1.13									
+r0571	(S)-Methylmalonyl Coenzyme A Hydrolase	h2o[m] + mmcoa_S[m] <=> coa[m] + h[m] + HC00900[m] 	"Valine, leucine, and isoleucine metabolism"	3.1.2.17	R02764				MNXR105351				
+MMCD	Methylmalonyl Coenzyme A Decarboxylase	h[c] + mmcoa_S[c] -> co2[c] + ppcoa[c] 	"Valine, leucine, and isoleucine metabolism"	4.1.1.9		K11264	COG1024	rxn00672	MNXR74464				
+MMCDm	"Methylmalonyl Coenzyme A Decarboxylase, Mitochondrial"	h[m] + mmcoa_S[m] -> co2[m] + ppcoa[m] 	"Valine, leucine, and isoleucine metabolism"	"4.1.1.41, 4.1.1.9"	R00923				MNXR101656				
+MMCDp	"Methylmalonyl Coenzyme A Decarboxylase, Peroxisomal"	h[x] + mmcoa_S[x] -> co2[x] + ppcoa[x] 	"Valine, leucine, and isoleucine metabolism"	4.1.1.9									
+MMEm	Methylmalonyl Coenzyme A Epimerase/Racemase	mmcoa_R[m] <=> mmcoa_S[m] 	"Valine, leucine, and isoleucine metabolism"	5.1.99.1	R02765				MNXR101657				
+MMMm	Methylmalonyl Coenzyme A Mutase	mmcoa_R[m] <=> succoa[m]	"Valine, leucine, and isoleucine metabolism"	5.4.99.2	R00833				MNXR101661				
+PPCOACm	"Propionyl Coenzyme A Carboxylase, Mitochondrial"	atp[m] + hco3[m] + ppcoa[m] -> adp[m] + h[m] + mmcoa_S[m] + pi[m] 	"Valine, leucine, and isoleucine metabolism"	6.4.1.3									
+CBL2OR	NADH:Cob (III)Alamine Oxidoreductase	2.0 aqcobal[c] + h[c] + nadh[c] -> 2.0 cbl2[c] + 2.0 h2o[c] + nad[c] 	Vitamin B12 metabolism	1.16.1.3					MNXR96473				
+CBLATm	"Cob(I)Alamin Adenosyltransferase, Mitochondrial"	atp[m] + cbl1[m] + h[m] <=> adocbl[m] + pppi[m] 	Vitamin B12 metabolism	2.5.1.17									
+RE2493C	Methionine Synthase	amet[c] + cbl2[c] -> ahcys[c] + C06453[c] + 4.0 h[c] 	Vitamin B12 metabolism	2.1.1.13									
