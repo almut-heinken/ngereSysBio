@@ -25,7 +25,6 @@ The models are based on **Recon3D**, and context-specific models are constructed
 
 - `code`: Python scripts for model building, FVA, SRFBA  
 - `notebook`: Jupyter notebooks for running simulations and visualizations  
-- `results`: Output files, figures, and simulation results (organized by topic)  
 - `data`: Input models, TRNs, gene sets, dietary and microbiome data  
 
 ---
